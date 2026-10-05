@@ -1,0 +1,1 @@
+{"schema":1,"name":"ldapsearch","group":"active-directory","description":"LDAP and Active Directory query tool","packaging":"debian","package":"ldap-utils","executables":["ldapsearch"],"official_source":"https://www.openldap.org","version_policy":"follow-debian-testing","functional_test":["ldapsearch","--version"],"functional_test_any_exit":true}
