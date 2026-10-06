@@ -1,0 +1,2 @@
+bin/gosecretsdump usr/bin/
+catalog.d/gosecretsdump.json usr/share/svent/catalog.d/
