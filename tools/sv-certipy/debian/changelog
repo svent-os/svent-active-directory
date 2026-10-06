@@ -1,0 +1,5 @@
+sv-certipy (0.1.0) unstable; urgency=medium
+
+  * Package certipy (isolated Python virtualenv).
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 23:16:17 -0400

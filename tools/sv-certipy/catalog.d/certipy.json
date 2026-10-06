@@ -1,0 +1,1 @@
+{"schema":1,"name":"certipy","group":"active-directory","description":"AD Certificate Services enumeration and abuse","packaging":"svent","package":"sv-certipy","executables":["certipy"],"official_source":"https://github.com/ly4k/Certipy","version_policy":"svent-packaged","functional_test":["certipy","--version"],"functional_test_any_exit":true}

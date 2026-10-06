@@ -1,0 +1,1 @@
+{"schema":1,"name":"kerbrute","group":"active-directory","description":"Kerberos pre-auth username/password bruteforcer","packaging":"svent","package":"sv-kerbrute","executables":["kerbrute"],"official_source":"https://github.com/ropnop/kerbrute","version_policy":"svent-packaged","functional_test":["kerbrute","--version"],"functional_test_any_exit":true}

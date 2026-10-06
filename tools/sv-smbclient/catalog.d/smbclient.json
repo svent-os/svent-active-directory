@@ -1,0 +1,1 @@
+{"schema":1,"name":"smbclient","group":"active-directory","description":"SMB/CIFS client for file shares","packaging":"debian","package":"smbclient","executables":["smbclient"],"official_source":"https://www.samba.org","version_policy":"follow-debian-testing","functional_test":["smbclient","--version"],"functional_test_any_exit":true}

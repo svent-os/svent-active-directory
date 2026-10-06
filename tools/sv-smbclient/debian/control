@@ -1,0 +1,13 @@
+Source: sv-smbclient
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-smbclient
+Architecture: all
+Depends: svent-core, smbclient, ${misc:Depends}
+Description: Svent active-directory tool: smbclient
+ Installs smbclient and registers it in the Svent catalog and menu.

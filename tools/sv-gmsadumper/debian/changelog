@@ -1,0 +1,5 @@
+sv-gmsadumper (0.1.0) unstable; urgency=medium
+
+  * Package gmsadumper (vendored from git).
+
+ -- z1rov <fabian@zirov.net>  Mon, 05 Oct 2026 23:18:14 -0400

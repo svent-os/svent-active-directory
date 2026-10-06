@@ -1,0 +1,3 @@
+#!/bin/sh
+export GEM_HOME=/opt/sv-evil-winrm GEM_PATH=/opt/sv-evil-winrm
+exec ruby /opt/sv-evil-winrm/bin/evil-winrm "$@"

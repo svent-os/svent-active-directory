@@ -1,0 +1,2 @@
+bin/kerbrute usr/bin/
+catalog.d/kerbrute.json usr/share/svent/catalog.d/

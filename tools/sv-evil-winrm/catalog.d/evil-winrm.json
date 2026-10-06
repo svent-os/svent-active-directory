@@ -1,0 +1,1 @@
+{"schema":1,"name":"evil-winrm","group":"active-directory","description":"WinRM shell for pentesting","packaging":"svent","package":"sv-evil-winrm","executables":["evil-winrm"],"official_source":"https://github.com/Hackplayers/evil-winrm","version_policy":"svent-packaged","functional_test":["evil-winrm","--version"],"functional_test_any_exit":true}

@@ -1,0 +1,1 @@
+{"schema":1,"name":"gmsadumper","group":"active-directory","description":"Dump gMSA managed passwords","packaging":"svent","package":"sv-gmsadumper","executables":["gmsadumper"],"official_source":"https://github.com/micahvandeusen/gMSADumper","version_policy":"svent-packaged","functional_test":["gmsadumper","--help"],"functional_test_any_exit":true}

@@ -1,0 +1,29 @@
+#!/usr/bin/make -f
+PKG = sv-evil-winrm
+PREFIX = /opt/sv-evil-winrm
+DESTDIR = $(CURDIR)/debian/sv-evil-winrm
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+override_dh_auto_build:
+override_dh_auto_test:
+
+override_dh_auto_install:
+	rm -rf $(CURDIR)/.gem
+	GEM_HOME=$(CURDIR)/.gem gem install --no-document --install-dir $(CURDIR)/.gem evil-winrm
+	mkdir -p $(DESTDIR)$(PREFIX)
+	cp -a $(CURDIR)/.gem/. $(DESTDIR)$(PREFIX)/
+	mkdir -p $(DESTDIR)/usr/bin
+	install -D -m755 files/evil-winrm $(DESTDIR)/usr/bin/evil-winrm
+	mkdir -p $(DESTDIR)/usr/share/svent/catalog.d
+	cp catalog.d/evil-winrm.json $(DESTDIR)/usr/share/svent/catalog.d/
+
+override_dh_strip:
+override_dh_dwz:
+override_dh_shlibdeps:
+	dh_shlibdeps || true
+
+override_dh_auto_clean:
+	rm -rf $(CURDIR)/.gem

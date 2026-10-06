@@ -1,0 +1,13 @@
+Source: sv-tools-active-directory
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-tools-active-directory
+Architecture: all
+Depends: svent-core, sv-smbclient, sv-certipy, sv-gmsadumper, sv-kerbrute, sv-evil-winrm, ${misc:Depends}
+Description: Svent active-directory tool group
+ Installs every Svent tool in the active-directory category.
