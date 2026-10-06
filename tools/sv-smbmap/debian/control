@@ -1,13 +1,13 @@
 Source: sv-smbmap
-Section: metapackages
+Section: net
 Priority: optional
 Maintainer: z1rov <fabian@zirov.net>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13), python3, python3-venv, python3-dev, build-essential
 Standards-Version: 4.7.0
-Rules-Requires-Root: no
 
 Package: sv-smbmap
-Architecture: all
-Depends: svent-core, smbmap, ${misc:Depends}
+Architecture: amd64
+Depends: svent-core, python3, ${shlibs:Depends}, ${misc:Depends}
 Description: Svent active-directory tool: smbmap
- Installs smbmap and registers it in the Svent catalog and menu.
+ Vendored and isolated under /opt/sv-smbmap so its dependencies never
+ touch the system packages or other tools.

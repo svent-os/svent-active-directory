@@ -1,3 +1,15 @@
+sv-tools-active-directory (0.2.19) unstable; urgency=medium
+
+  * Add sv-smbmap
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:09:39 -0400
+
+sv-tools-active-directory (0.2.18) unstable; urgency=medium
+
+  * Add sv-smbmap
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:06:14 -0400
+
 sv-tools-active-directory (0.2.17) unstable; urgency=medium
 
   * Add sv-impacket
