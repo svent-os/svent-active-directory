@@ -17,7 +17,7 @@ override_dh_auto_install:
 	mkdir -p $(DESTDIR)$(PREFIX)
 	cp -a $(CURDIR)/.src/. $(DESTDIR)$(PREFIX)/
 	python3 -m venv $(CURDIR)/.venv
-	$(CURDIR)/.venv/bin/pip install --no-cache-dir --upgrade pip wheel
+	$(CURDIR)/.venv/bin/pip install --no-cache-dir --upgrade pip wheel "setuptools<81"
 	if [ -f $(CURDIR)/.src/requirements.txt ]; then $(CURDIR)/.venv/bin/pip install --no-cache-dir -r $(CURDIR)/.src/requirements.txt; fi
 	cp -a $(CURDIR)/.venv $(DESTDIR)$(PREFIX)/.venv
 	find $(DESTDIR)$(PREFIX)/.venv/bin -type f -exec sed -i "1s|$(CURDIR)/.venv|$(PREFIX)/.venv|" {} +

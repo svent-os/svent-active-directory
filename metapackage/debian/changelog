@@ -1,3 +1,63 @@
+sv-tools-active-directory (0.3.0) unstable; urgency=medium
+
+  * Final AD set (donpapi/aclpwn excluded, blocked upstream).
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 19:04:39 -0400
+
+sv-tools-active-directory (0.2.57) unstable; urgency=medium
+
+  * Add sv-donpapi
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:38:51 -0400
+
+sv-tools-active-directory (0.2.56) unstable; urgency=medium
+
+  * Add sv-windapsearch
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:37:45 -0400
+
+sv-tools-active-directory (0.2.55) unstable; urgency=medium
+
+  * Add sv-windapsearch
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:36:16 -0400
+
+sv-tools-active-directory (0.2.54) unstable; urgency=medium
+
+  * Add sv-donpapi
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:35:55 -0400
+
+sv-tools-active-directory (0.2.53) unstable; urgency=medium
+
+  * Add sv-pkinittools
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:34:07 -0400
+
+sv-tools-active-directory (0.2.52) unstable; urgency=medium
+
+  * Add sv-pcredz
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:32:56 -0400
+
+sv-tools-active-directory (0.2.51) unstable; urgency=medium
+
+  * Add sv-krbrelayx
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:29:29 -0400
+
+sv-tools-active-directory (0.2.50) unstable; urgency=medium
+
+  * Add sv-sprayhound
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:27:28 -0400
+
+sv-tools-active-directory (0.2.49) unstable; urgency=medium
+
+  * Add sv-nopac
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:24:04 -0400
+
 sv-tools-active-directory (0.2.48) unstable; urgency=medium
 
   * Add sv-enum4linux-ng

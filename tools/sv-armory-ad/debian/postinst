@@ -1,0 +1,35 @@
+#!/bin/sh
+set -e
+ROOT=/usr/share/armory/ad
+LIST=/usr/share/armory/ad-manifest.list
+case "$1" in
+  configure)
+    mkdir -p "$ROOT"
+    echo "sv-armory-ad: downloading Windows AD binaries into $ROOT ..."
+    while read -r sub url name; do
+      [ -z "$sub" ] && continue
+      case "$sub" in \#*) continue;; esac
+      mkdir -p "$ROOT/$sub"
+      curl -sfL "$url" -o "$ROOT/$sub/$name" && echo "  [+] $sub/$name" || echo "  [!] fail $sub/$name" >&2
+    done < "$LIST"
+    # mimikatz (latest release zip)
+    murl=$(curl -s https://api.github.com/repos/gentilkiwi/mimikatz/releases/latest | grep browser_download_url | grep '\.zip' | head -1 | cut -d'"' -f4)
+    if [ -n "$murl" ]; then
+      mkdir -p "$ROOT/mimikatz"
+      curl -sfL "$murl" -o /tmp/mk.zip && unzip -oq /tmp/mk.zip -d "$ROOT/mimikatz" && rm -f /tmp/mk.zip && echo "  [+] mimikatz" || echo "  [!] mimikatz" >&2
+    fi
+    # sharphound (latest release, windows x86)
+    tag=$(curl -s https://api.github.com/repos/SpecterOps/SharpHound/releases/latest | grep '"tag_name"' | head -1 | cut -d'"' -f4)
+    sver=${tag#v}
+    if [ -n "$sver" ]; then
+      mkdir -p "$ROOT/sharphound"
+      curl -sfL "https://github.com/SpecterOps/SharpHound/releases/download/v${sver}/SharpHound_v${sver}_windows_x86.zip" -o /tmp/sh.zip && unzip -oq /tmp/sh.zip -d "$ROOT/sharphound" && rm -f /tmp/sh.zip && echo "  [+] sharphound v$sver" || echo "  [!] sharphound" >&2
+    fi
+    # sysinternals suite
+    mkdir -p "$ROOT/sysinternals"
+    curl -sfL --max-time 180 "https://download.sysinternals.com/files/SysinternalsSuite.zip" -o /tmp/sys.zip && unzip -oq /tmp/sys.zip -d "$ROOT/sysinternals" && rm -f /tmp/sys.zip && echo "  [+] sysinternals" || echo "  [!] sysinternals" >&2
+    echo "sv-armory-ad: done. List with: armory-ad"
+    ;;
+esac
+#DEBHELPER#
+exit 0

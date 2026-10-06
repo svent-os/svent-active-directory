@@ -1,0 +1,15 @@
+Source: sv-armory-ad
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+
+Package: sv-armory-ad
+Architecture: all
+Depends: svent-core, curl, ca-certificates, unzip, ${misc:Depends}
+Description: Svent AD armory (Windows attack binaries downloader)
+ Downloads Active Directory / Windows attack binaries and scripts (Rubeus,
+ Certify, SharpHound, mimikatz, winPEAS, PowerView.ps1, Sysinternals, ...)
+ into /usr/share/armory/ad for uploading to compromised Windows hosts.
+ Binaries are fetched from their upstream projects at install time.

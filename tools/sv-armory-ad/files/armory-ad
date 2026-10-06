@@ -1,0 +1,12 @@
+#!/bin/sh
+ROOT=/usr/share/armory/ad
+case "$1" in
+  -h|--help) echo "armory-ad: lists the Windows AD attack binaries in $ROOT"; exit 0 ;;
+esac
+if [ ! -d "$ROOT" ] || [ -z "$(ls -A "$ROOT" 2>/dev/null)" ]; then
+  echo "Armory not downloaded. Run: sudo apt install --reinstall sv-armory-ad" >&2
+  exit 1
+fi
+echo "Svent AD armory (Windows binaries/scripts): $ROOT"
+echo
+find "$ROOT" -type f | sort | sed "s|$ROOT/|  |"

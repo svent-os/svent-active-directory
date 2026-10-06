@@ -13,7 +13,7 @@ override_dh_auto_test:
 override_dh_auto_install:
 	rm -rf $(CURDIR)/.venv
 	python3 -m venv $(CURDIR)/.venv
-	$(CURDIR)/.venv/bin/pip install --no-cache-dir --upgrade pip wheel
+	$(CURDIR)/.venv/bin/pip install --no-cache-dir --upgrade pip wheel "setuptools<81"
 	$(CURDIR)/.venv/bin/pip install --no-cache-dir sprayhound
 	mkdir -p $(DESTDIR)$(PREFIX)
 	cp -a $(CURDIR)/.venv/. $(DESTDIR)$(PREFIX)/

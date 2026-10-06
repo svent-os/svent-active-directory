@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-pkinittools/.venv/bin/python /opt/sv-pkinittools/gets4uticket.py "$@"

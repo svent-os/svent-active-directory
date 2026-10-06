@@ -1,5 +1,5 @@
-sv-pkinittools (0.1.0) unstable; urgency=medium
+sv-pkinittools (0.2.0) unstable; urgency=medium
 
   * Package pkinittools (vendored from git).
 
- -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 02:03:00 -0400
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 13:34:07 -0400
