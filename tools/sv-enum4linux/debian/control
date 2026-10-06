@@ -1,0 +1,13 @@
+Source: sv-enum4linux
+Section: net
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13), git, ca-certificates
+Standards-Version: 4.7.0
+
+Package: sv-enum4linux
+Architecture: all
+Depends: svent-core, perl, smbclient, samba-common-bin, ldap-utils, ${misc:Depends}
+Description: Svent active-directory tool: enum4linux
+ Vendored and isolated under /opt/sv-enum4linux so its dependencies never
+ touch the system packages or other tools.

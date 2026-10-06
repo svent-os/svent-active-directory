@@ -1,0 +1,2 @@
+#!/bin/sh
+exec perl /opt/sv-enum4linux/enum4linux.pl "$@"
