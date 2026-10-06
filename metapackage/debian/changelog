@@ -1,3 +1,9 @@
+sv-tools-active-directory (0.2.8) unstable; urgency=medium
+
+  * Add sv-proxychains
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 00:30:26 -0400
+
 sv-tools-active-directory (0.2.7) unstable; urgency=medium
 
   * Add sv-freerdp

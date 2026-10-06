@@ -1,0 +1,13 @@
+Source: sv-proxychains
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-proxychains
+Architecture: all
+Depends: svent-core, proxychains4, ${misc:Depends}
+Description: Svent active-directory tool: proxychains
+ Installs proxychains and registers it in the Svent catalog and menu.

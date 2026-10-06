@@ -1,0 +1,1 @@
+{"schema":1,"name":"proxychains","group":"active-directory","description":"Force TCP connections through proxies","packaging":"debian","package":"proxychains4","executables":["proxychains4"],"official_source":"https://github.com/rofl0r/proxychains-ng","version_policy":"follow-debian-testing","functional_test":["proxychains4","--version"],"functional_test_any_exit":true}
