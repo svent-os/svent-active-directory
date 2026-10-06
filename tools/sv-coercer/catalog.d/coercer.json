@@ -1,0 +1,1 @@
+{"schema":1,"name":"coercer","group":"active-directory","description":"Coerce Windows authentication","packaging":"svent","package":"sv-coercer","executables":["coercer"],"official_source":"https://github.com/p0dalirius/Coercer","version_policy":"svent-packaged","functional_test":["coercer","--version"],"functional_test_any_exit":true}

@@ -1,0 +1,1 @@
+{"schema":1,"name":"goldencopy","group":"active-directory","description":"Copy golden/silver ticket parameters","packaging":"svent","package":"sv-goldencopy","executables":["goldencopy"],"official_source":"https://github.com/Dramelac/GoldenCopy","version_policy":"svent-packaged","functional_test":["goldencopy","--version"],"functional_test_any_exit":true}

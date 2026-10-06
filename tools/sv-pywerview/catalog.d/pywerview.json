@@ -1,0 +1,1 @@
+{"schema":1,"name":"pywerview","group":"active-directory","description":"PowerView-like AD recon (Python)","packaging":"svent","package":"sv-pywerview","executables":["pywerview"],"official_source":"https://github.com/the-useless-one/pywerview","version_policy":"svent-packaged","functional_test":["pywerview","--version"],"functional_test_any_exit":true}

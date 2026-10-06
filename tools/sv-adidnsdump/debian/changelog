@@ -1,0 +1,5 @@
+sv-adidnsdump (0.1.0) unstable; urgency=medium
+
+  * Package adidnsdump (isolated Python virtualenv).
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:27:34 -0400

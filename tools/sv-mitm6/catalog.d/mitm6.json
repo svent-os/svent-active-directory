@@ -1,0 +1,1 @@
+{"schema":1,"name":"mitm6","group":"active-directory","description":"IPv6 DNS takeover (mitm6)","packaging":"svent","package":"sv-mitm6","executables":["mitm6"],"official_source":"https://github.com/dirkjanm/mitm6","version_policy":"svent-packaged","functional_test":["mitm6","--version"],"functional_test_any_exit":true}

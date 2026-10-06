@@ -1,0 +1,13 @@
+Source: sv-goldencopy
+Section: net
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13), python3, python3-venv, python3-dev, build-essential
+Standards-Version: 4.7.0
+
+Package: sv-goldencopy
+Architecture: amd64
+Depends: svent-core, python3, ${shlibs:Depends}, ${misc:Depends}
+Description: Svent active-directory tool: goldencopy
+ Vendored and isolated under /opt/sv-goldencopy so its dependencies never
+ touch the system packages or other tools.

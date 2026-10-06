@@ -1,0 +1,1 @@
+{"schema":1,"name":"pypykatz","group":"active-directory","description":"Mimikatz functionality in pure Python","packaging":"svent","package":"sv-pypykatz","executables":["pypykatz"],"official_source":"https://github.com/skelsec/pypykatz","version_policy":"svent-packaged","functional_test":["pypykatz","--version"],"functional_test_any_exit":true}

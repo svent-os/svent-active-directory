@@ -1,0 +1,1 @@
+{"schema":1,"name":"gpp-decrypt","group":"active-directory","description":"Decrypt Group Policy Preferences passwords","packaging":"svent","package":"sv-gpp-decrypt","executables":["gpp-decrypt"],"official_source":"https://github.com/t0thkr1s/gpp-decrypt","version_policy":"svent-packaged","functional_test":["gpp-decrypt","--version"],"functional_test_any_exit":true}

@@ -1,0 +1,1 @@
+{"schema":1,"name":"adidnsdump","group":"active-directory","description":"Integrated AD DNS zone dumper","packaging":"svent","package":"sv-adidnsdump","executables":["adidnsdump"],"official_source":"https://github.com/dirkjanm/adidnsdump","version_policy":"svent-packaged","functional_test":["adidnsdump","--version"],"functional_test_any_exit":true}

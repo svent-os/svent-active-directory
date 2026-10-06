@@ -1,0 +1,5 @@
+sv-goldencopy (0.1.0) unstable; urgency=medium
+
+  * Package goldencopy (isolated Python virtualenv).
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:31:48 -0400

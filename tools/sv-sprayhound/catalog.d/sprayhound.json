@@ -1,0 +1,1 @@
+{"schema":1,"name":"sprayhound","group":"active-directory","description":"AD password spraying with BloodHound","packaging":"svent","package":"sv-sprayhound","executables":["sprayhound"],"official_source":"https://github.com/Hackndo/sprayhound","version_policy":"svent-packaged","functional_test":["sprayhound","--version"],"functional_test_any_exit":true}

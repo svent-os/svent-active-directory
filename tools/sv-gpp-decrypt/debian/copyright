@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sv-gpp-decrypt
+Source: https://github.com/t0thkr1s/gpp-decrypt
+
+Files: *
+Copyright: 2026 z1rov <fabian@zirov.net>
+License: GPL-3.0-or-later
+ On Debian systems the full license text is in
+ /usr/share/common-licenses/GPL-3.

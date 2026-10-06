@@ -1,0 +1,1 @@
+{"schema":1,"name":"ldeep","group":"active-directory","description":"In-depth LDAP enumeration","packaging":"svent","package":"sv-ldeep","executables":["ldeep"],"official_source":"https://github.com/franc-pentest/ldeep","version_policy":"svent-packaged","functional_test":["ldeep","--version"],"functional_test_any_exit":true}

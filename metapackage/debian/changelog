@@ -1,3 +1,69 @@
+sv-tools-active-directory (0.2.31) unstable; urgency=medium
+
+  * Add sv-roadrecon
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:37:08 -0400
+
+sv-tools-active-directory (0.2.30) unstable; urgency=medium
+
+  * Add sv-pywerview
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:35:31 -0400
+
+sv-tools-active-directory (0.2.29) unstable; urgency=medium
+
+  * Add sv-sprayhound
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:34:39 -0400
+
+sv-tools-active-directory (0.2.28) unstable; urgency=medium
+
+  * Add sv-gpp-decrypt
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:33:18 -0400
+
+sv-tools-active-directory (0.2.27) unstable; urgency=medium
+
+  * Add sv-goldencopy
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:31:48 -0400
+
+sv-tools-active-directory (0.2.26) unstable; urgency=medium
+
+  * Add sv-pypykatz
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:30:23 -0400
+
+sv-tools-active-directory (0.2.25) unstable; urgency=medium
+
+  * Add sv-coercer
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:28:53 -0400
+
+sv-tools-active-directory (0.2.24) unstable; urgency=medium
+
+  * Add sv-adidnsdump
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:27:34 -0400
+
+sv-tools-active-directory (0.2.23) unstable; urgency=medium
+
+  * Add sv-mitm6
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:26:06 -0400
+
+sv-tools-active-directory (0.2.22) unstable; urgency=medium
+
+  * Add sv-ldeep
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:23:48 -0400
+
+sv-tools-active-directory (0.2.21) unstable; urgency=medium
+
+  * Add sv-ldeep
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:21:06 -0400
+
 sv-tools-active-directory (0.2.20) unstable; urgency=medium
 
   * Add sv-gosecretsdump
