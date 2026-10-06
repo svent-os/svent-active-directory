@@ -1,0 +1,13 @@
+Source: sv-samba-common
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-samba-common
+Architecture: all
+Depends: svent-core, samba-common-bin, ${misc:Depends}
+Description: Svent active-directory tool: samba-common
+ Installs samba-common and registers it in the Svent catalog and menu.

@@ -1,0 +1,1 @@
+{"schema":1,"name":"samba-common","group":"active-directory","description":"Samba net administration utility","packaging":"debian","package":"samba-common-bin","executables":["net"],"official_source":"https://www.samba.org","version_policy":"follow-debian-testing","functional_test":["net","--version"],"functional_test_any_exit":true}
