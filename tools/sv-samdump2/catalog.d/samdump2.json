@@ -1,0 +1,1 @@
+{"schema":1,"name":"samdump2","group":"active-directory","description":"Dump password hashes from Windows SAM","packaging":"debian","package":"samdump2","executables":["samdump2"],"official_source":"https://packages.debian.org/samdump2","version_policy":"follow-debian-testing","functional_test":["samdump2","--version"],"functional_test_any_exit":true}
