@@ -1,0 +1,1 @@
+{"schema":1,"name":"smbmap","group":"active-directory","description":"SMB share enumeration tool","packaging":"debian","package":"smbmap","executables":["smbmap"],"official_source":"https://github.com/ShawnDEvans/smbmap","version_policy":"follow-debian-testing","functional_test":["smbmap","--version"],"functional_test_any_exit":true}

@@ -1,0 +1,13 @@
+Source: sv-smbmap
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-smbmap
+Architecture: all
+Depends: svent-core, smbmap, ${misc:Depends}
+Description: Svent active-directory tool: smbmap
+ Installs smbmap and registers it in the Svent catalog and menu.
