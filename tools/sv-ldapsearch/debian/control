@@ -1,0 +1,13 @@
+Source: sv-ldapsearch
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-ldapsearch
+Architecture: all
+Depends: svent-core, ldap-utils, ${misc:Depends}
+Description: Svent active-directory tool: ldapsearch
+ Installs ldapsearch and registers it in the Svent catalog and menu.
