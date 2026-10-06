@@ -1,13 +1,13 @@
 Source: sv-impacket
-Section: metapackages
+Section: net
 Priority: optional
 Maintainer: z1rov <fabian@zirov.net>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13), python3, python3-venv, python3-dev, build-essential
 Standards-Version: 4.7.0
-Rules-Requires-Root: no
 
 Package: sv-impacket
-Architecture: all
-Depends: svent-core, python3-impacket, ${misc:Depends}
+Architecture: amd64
+Depends: svent-core, python3, ${shlibs:Depends}, ${misc:Depends}
 Description: Svent active-directory tool: impacket
- Installs impacket and registers it in the Svent catalog and menu.
+ Vendored and isolated under /opt/sv-impacket so its dependencies never
+ touch the system packages or other tools.

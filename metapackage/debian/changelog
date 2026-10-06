@@ -1,3 +1,9 @@
+sv-tools-active-directory (0.2.17) unstable; urgency=medium
+
+  * Add sv-impacket
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 00:54:39 -0400
+
 sv-tools-active-directory (0.2.16) unstable; urgency=medium
 
   * Add sv-bloodyad
