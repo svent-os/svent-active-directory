@@ -1,0 +1,1 @@
+{"schema":1,"name":"evil-winrm-py","group":"active-directory","description":"WinRM shell (Python port)","packaging":"svent","package":"sv-evil-winrm-py","executables":["evil-winrm-py"],"official_source":"https://github.com/adamf99/evil-winrm-py","version_policy":"svent-packaged","functional_test":["evil-winrm-py","--version"],"functional_test_any_exit":true}
