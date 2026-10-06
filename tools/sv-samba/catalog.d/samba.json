@@ -1,0 +1,1 @@
+{"schema":1,"name":"samba","group":"active-directory","description":"Samba SMB/CIFS server","packaging":"debian","package":"samba","executables":["smbd"],"official_source":"https://www.samba.org","version_policy":"follow-debian-testing","functional_test":["smbd","--version"],"functional_test_any_exit":true}
