@@ -1,3 +1,9 @@
+sv-tools-active-directory (0.2.4) unstable; urgency=medium
+
+  * Add sv-nbtscan
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 00:24:50 -0400
+
 sv-tools-active-directory (0.2.3) unstable; urgency=medium
 
   * Add sv-samba-common

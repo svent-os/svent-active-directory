@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-tools-active-directory
 Architecture: all
-Depends: svent-core, sv-ldapsearch, sv-smbclient, sv-certipy, sv-gmsadumper, sv-kerbrute, sv-evil-winrm, sv-kerberos, sv-samba, sv-samba-common, ${misc:Depends}
+Depends: svent-core, sv-ldapsearch, sv-smbclient, sv-certipy, sv-gmsadumper, sv-kerbrute, sv-evil-winrm, sv-kerberos, sv-samba, sv-samba-common, sv-nbtscan, ${misc:Depends}
 Description: Svent active-directory tool group
  Installs every Svent tool in the active-directory category.

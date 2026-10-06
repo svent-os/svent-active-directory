@@ -1,0 +1,1 @@
+{"schema":1,"name":"nbtscan","group":"active-directory","description":"NetBIOS name network scanner","packaging":"debian","package":"nbtscan","executables":["nbtscan"],"official_source":"https://github.com/resurrecting-open-source-projects/nbtscan","version_policy":"follow-debian-testing","functional_test":["nbtscan","--version"],"functional_test_any_exit":true}

@@ -1,0 +1,13 @@
+Source: sv-nbtscan
+Section: metapackages
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: sv-nbtscan
+Architecture: all
+Depends: svent-core, nbtscan, ${misc:Depends}
+Description: Svent active-directory tool: nbtscan
+ Installs nbtscan and registers it in the Svent catalog and menu.
