@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-pcredz/.venv/bin/python /opt/sv-pcredz/Pcredz "$@"

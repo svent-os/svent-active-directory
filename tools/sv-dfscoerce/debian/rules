@@ -1,0 +1,37 @@
+#!/usr/bin/make -f
+PKG = sv-dfscoerce
+PREFIX = /opt/sv-dfscoerce
+DESTDIR = $(CURDIR)/debian/sv-dfscoerce
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+override_dh_auto_build:
+override_dh_auto_test:
+
+override_dh_auto_install:
+	rm -rf $(CURDIR)/.src
+	git clone --depth 1 https://github.com/Wh04m1001/DFSCoerce $(CURDIR)/.src
+	rm -rf $(CURDIR)/.src/.git
+	mkdir -p $(DESTDIR)$(PREFIX)
+	cp -a $(CURDIR)/.src/. $(DESTDIR)$(PREFIX)/
+	python3 -m venv $(CURDIR)/.venv
+	$(CURDIR)/.venv/bin/pip install --no-cache-dir --upgrade pip wheel
+	if [ -f $(CURDIR)/.src/requirements.txt ]; then $(CURDIR)/.venv/bin/pip install --no-cache-dir -r $(CURDIR)/.src/requirements.txt; fi
+	$(CURDIR)/.venv/bin/pip install --no-cache-dir impacket
+	cp -a $(CURDIR)/.venv $(DESTDIR)$(PREFIX)/.venv
+	find $(DESTDIR)$(PREFIX)/.venv/bin -type f -exec sed -i "1s|$(CURDIR)/.venv|$(PREFIX)/.venv|" {} +
+	sed -i "s|$(CURDIR)/.venv|$(PREFIX)/.venv|g" $(DESTDIR)$(PREFIX)/.venv/pyvenv.cfg
+	mkdir -p $(DESTDIR)/usr/bin
+	install -D -m755 files/dfscoerce $(DESTDIR)/usr/bin/dfscoerce
+	mkdir -p $(DESTDIR)/usr/share/svent/catalog.d
+	cp catalog.d/dfscoerce.json $(DESTDIR)/usr/share/svent/catalog.d/
+
+override_dh_strip:
+override_dh_dwz:
+override_dh_shlibdeps:
+	dh_shlibdeps || true
+
+override_dh_auto_clean:
+	rm -rf $(CURDIR)/.src $(CURDIR)/.venv

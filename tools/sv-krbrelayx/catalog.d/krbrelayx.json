@@ -1,0 +1,1 @@
+{"schema":1,"name":"krbrelayx","group":"active-directory","description":"Kerberos relaying / delegation abuse","packaging":"svent","package":"sv-krbrelayx","executables":["krbrelayx","dnstool","printerbug","addspn"],"official_source":"https://github.com/dirkjanm/krbrelayx","version_policy":"svent-packaged","functional_test":["krbrelayx","--help"],"functional_test_any_exit":true}

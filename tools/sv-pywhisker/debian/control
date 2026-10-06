@@ -1,0 +1,13 @@
+Source: sv-pywhisker
+Section: net
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13), python3, python3-venv, python3-dev, build-essential, git
+Standards-Version: 4.7.0
+
+Package: sv-pywhisker
+Architecture: amd64
+Depends: svent-core, python3, ${shlibs:Depends}, ${misc:Depends}
+Description: Svent active-directory tool: pywhisker
+ Vendored and isolated under /opt/sv-pywhisker so its dependencies never
+ touch the system packages or other tools.

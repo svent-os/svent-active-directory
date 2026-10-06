@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-enum4linux-ng/.venv/bin/python /opt/sv-enum4linux-ng/enum4linux-ng.py "$@"

@@ -1,0 +1,1 @@
+{"schema":1,"name":"windapsearch","group":"active-directory","description":"LDAP AD enumeration","packaging":"svent","package":"sv-windapsearch","executables":["windapsearch"],"official_source":"https://github.com/ropnop/windapsearch","version_policy":"svent-packaged","functional_test":["windapsearch","--help"],"functional_test_any_exit":true}

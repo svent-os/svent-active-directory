@@ -1,0 +1,1 @@
+{"schema":1,"name":"pkinittools","group":"active-directory","description":"PKINIT / cert-based Kerberos tools","packaging":"svent","package":"sv-pkinittools","executables":["gettgtpkinit","getnthash"],"official_source":"https://github.com/dirkjanm/PKINITtools","version_policy":"svent-packaged","functional_test":["gettgtpkinit","--help"],"functional_test_any_exit":true}

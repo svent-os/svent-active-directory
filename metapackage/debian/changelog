@@ -1,3 +1,105 @@
+sv-tools-active-directory (0.2.48) unstable; urgency=medium
+
+  * Add sv-enum4linux-ng
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 02:04:23 -0400
+
+sv-tools-active-directory (0.2.47) unstable; urgency=medium
+
+  * Add sv-pkinittools
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 02:03:00 -0400
+
+sv-tools-active-directory (0.2.46) unstable; urgency=medium
+
+  * Add sv-krbrelayx
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 02:02:25 -0400
+
+sv-tools-active-directory (0.2.45) unstable; urgency=medium
+
+  * Add sv-targetedkerberoast
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 02:00:54 -0400
+
+sv-tools-active-directory (0.2.44) unstable; urgency=medium
+
+  * Add sv-nopac
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:59:33 -0400
+
+sv-tools-active-directory (0.2.43) unstable; urgency=medium
+
+  * Add sv-zerologon-scan
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:57:45 -0400
+
+sv-tools-active-directory (0.2.42) unstable; urgency=medium
+
+  * Add sv-shadowcoerce
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:56:29 -0400
+
+sv-tools-active-directory (0.2.41) unstable; urgency=medium
+
+  * Add sv-dfscoerce
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:55:15 -0400
+
+sv-tools-active-directory (0.2.40) unstable; urgency=medium
+
+  * Add sv-petitpotam
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:53:56 -0400
+
+sv-tools-active-directory (0.2.39) unstable; urgency=medium
+
+  * Add sv-windapsearch
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:53:55 -0400
+
+sv-tools-active-directory (0.2.38) unstable; urgency=medium
+
+  * Add sv-pcredz
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:53:21 -0400
+
+sv-tools-active-directory (0.2.37) unstable; urgency=medium
+
+  * Add sv-responder
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:52:29 -0400
+
+sv-tools-active-directory (0.2.36) unstable; urgency=medium
+
+  * Add sv-pywhisker
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:49:43 -0400
+
+sv-tools-active-directory (0.2.35) unstable; urgency=medium
+
+  * Add sv-powerview
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:45:28 -0400
+
+sv-tools-active-directory (0.2.34) unstable; urgency=medium
+
+  * Add sv-bloodhound-py
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:44:07 -0400
+
+sv-tools-active-directory (0.2.33) unstable; urgency=medium
+
+  * Add sv-manspider
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:42:09 -0400
+
+sv-tools-active-directory (0.2.32) unstable; urgency=medium
+
+  * Add sv-donpapi
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:41:48 -0400
+
 sv-tools-active-directory (0.2.31) unstable; urgency=medium
 
   * Add sv-roadrecon

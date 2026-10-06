@@ -1,0 +1,1 @@
+{"schema":1,"name":"dfscoerce","group":"active-directory","description":"MS-DFSNM coercion (DFSCoerce)","packaging":"svent","package":"sv-dfscoerce","executables":["dfscoerce"],"official_source":"https://github.com/Wh04m1001/DFSCoerce","version_policy":"svent-packaged","functional_test":["dfscoerce","--help"],"functional_test_any_exit":true}

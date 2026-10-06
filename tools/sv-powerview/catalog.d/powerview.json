@@ -1,0 +1,1 @@
+{"schema":1,"name":"powerview","group":"active-directory","description":"PowerView for Linux (Python)","packaging":"svent","package":"sv-powerview","executables":["powerview"],"official_source":"https://github.com/aniqfakhrul/powerview.py","version_policy":"svent-packaged","functional_test":["powerview","--version"],"functional_test_any_exit":true}

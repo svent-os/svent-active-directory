@@ -1,0 +1,1 @@
+{"schema":1,"name":"pcredz","group":"active-directory","description":"Extract credentials from pcap/live traffic","packaging":"svent","package":"sv-pcredz","executables":["pcredz"],"official_source":"https://github.com/lgandx/PCredz","version_policy":"svent-packaged","functional_test":["pcredz","--help"],"functional_test_any_exit":true}

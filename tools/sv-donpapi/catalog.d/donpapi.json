@@ -1,0 +1,1 @@
+{"schema":1,"name":"donpapi","group":"active-directory","description":"Dump DPAPI credentials remotely","packaging":"svent","package":"sv-donpapi","executables":["donpapi"],"official_source":"https://github.com/login-securite/DonPAPI","version_policy":"svent-packaged","functional_test":["donpapi","--version"],"functional_test_any_exit":true}

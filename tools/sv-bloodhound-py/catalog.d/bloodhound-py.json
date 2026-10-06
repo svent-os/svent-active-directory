@@ -1,0 +1,1 @@
+{"schema":1,"name":"bloodhound-py","group":"active-directory","description":"BloodHound CE data collector (Python)","packaging":"svent","package":"sv-bloodhound-py","executables":["bloodhound-python"],"official_source":"https://github.com/dirkjanm/BloodHound.py","version_policy":"svent-packaged","functional_test":["bloodhound-python","--version"],"functional_test_any_exit":true}

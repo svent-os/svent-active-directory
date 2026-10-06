@@ -1,0 +1,1 @@
+{"schema":1,"name":"manspider","group":"active-directory","description":"Crawl SMB shares for sensitive files","packaging":"svent","package":"sv-manspider","executables":["manspider"],"official_source":"https://github.com/blacklanternsecurity/MANSPIDER","version_policy":"svent-packaged","functional_test":["manspider","--version"],"functional_test_any_exit":true}

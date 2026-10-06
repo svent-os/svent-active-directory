@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-windapsearch/.venv/bin/python /opt/sv-windapsearch/windapsearch.py "$@"

@@ -1,0 +1,5 @@
+sv-manspider (0.1.0) unstable; urgency=medium
+
+  * Package manspider (isolated Python virtualenv).
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:42:09 -0400

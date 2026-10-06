@@ -1,0 +1,1 @@
+{"schema":1,"name":"shadowcoerce","group":"active-directory","description":"MS-FSRVP coercion (ShadowCoerce)","packaging":"svent","package":"sv-shadowcoerce","executables":["shadowcoerce"],"official_source":"https://github.com/ShutdownRepo/ShadowCoerce","version_policy":"svent-packaged","functional_test":["shadowcoerce","--help"],"functional_test_any_exit":true}

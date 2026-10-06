@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-krbrelayx/.venv/bin/python /opt/sv-krbrelayx/krbrelayx.py "$@"

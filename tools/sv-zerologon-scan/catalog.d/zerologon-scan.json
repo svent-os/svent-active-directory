@@ -1,0 +1,1 @@
+{"schema":1,"name":"zerologon-scan","group":"active-directory","description":"Zerologon (CVE-2020-1472) scanner","packaging":"svent","package":"sv-zerologon-scan","executables":["zerologon-scan"],"official_source":"https://github.com/SecuraBV/CVE-2020-1472","version_policy":"svent-packaged","functional_test":["zerologon-scan","--help"],"functional_test_any_exit":true}

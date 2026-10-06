@@ -1,0 +1,1 @@
+{"schema":1,"name":"enum4linux-ng","group":"active-directory","description":"Next-gen SMB/AD enumeration","packaging":"svent","package":"sv-enum4linux-ng","executables":["enum4linux-ng"],"official_source":"https://github.com/cddmp/enum4linux-ng","version_policy":"svent-packaged","functional_test":["enum4linux-ng","--help"],"functional_test_any_exit":true}

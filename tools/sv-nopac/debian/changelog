@@ -1,0 +1,5 @@
+sv-nopac (0.1.0) unstable; urgency=medium
+
+  * Package nopac (vendored from git).
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 01:59:33 -0400

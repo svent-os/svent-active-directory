@@ -1,0 +1,1 @@
+{"schema":1,"name":"responder","group":"active-directory","description":"LLMNR/NBT-NS/MDNS poisoner","packaging":"svent","package":"sv-responder","executables":["responder"],"official_source":"https://github.com/lgandx/Responder","version_policy":"svent-packaged","functional_test":["responder","--help"],"functional_test_any_exit":true}

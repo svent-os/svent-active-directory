@@ -1,0 +1,1 @@
+{"schema":1,"name":"pywhisker","group":"active-directory","description":"Shadow Credentials (msDS-KeyCredentialLink)","packaging":"svent","package":"sv-pywhisker","executables":["pywhisker"],"official_source":"https://github.com/ShutdownRepo/pywhisker","version_policy":"svent-packaged","functional_test":["pywhisker","--version"],"functional_test_any_exit":true}

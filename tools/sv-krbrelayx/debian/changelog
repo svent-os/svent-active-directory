@@ -1,0 +1,5 @@
+sv-krbrelayx (0.1.0) unstable; urgency=medium
+
+  * Package krbrelayx (vendored from git).
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 02:02:25 -0400

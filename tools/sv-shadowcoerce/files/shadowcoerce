@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-shadowcoerce/.venv/bin/python /opt/sv-shadowcoerce/shadowcoerce.py "$@"

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-dfscoerce/.venv/bin/python /opt/sv-dfscoerce/dfscoerce.py "$@"

@@ -1,0 +1,1 @@
+{"schema":1,"name":"nopac","group":"active-directory","description":"noPac (CVE-2021-42278/42287)","packaging":"svent","package":"sv-nopac","executables":["nopac","nopac-scanner"],"official_source":"https://github.com/Ridter/noPac","version_policy":"svent-packaged","functional_test":["nopac","--help"],"functional_test_any_exit":true}

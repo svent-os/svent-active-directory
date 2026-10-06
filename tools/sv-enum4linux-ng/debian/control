@@ -1,0 +1,13 @@
+Source: sv-enum4linux-ng
+Section: net
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13), git, ca-certificates, python3, python3-venv, python3-dev, build-essential
+Standards-Version: 4.7.0
+
+Package: sv-enum4linux-ng
+Architecture: amd64
+Depends: svent-core, python3, smbclient, samba-common-bin, ${shlibs:Depends}, ${misc:Depends}
+Description: Svent active-directory tool: enum4linux-ng
+ Vendored and isolated under /opt/sv-enum4linux-ng so its dependencies never
+ touch the system packages or other tools.

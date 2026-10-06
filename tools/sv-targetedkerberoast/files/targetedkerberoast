@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-targetedkerberoast/.venv/bin/python /opt/sv-targetedkerberoast/targetedKerberoast.py "$@"

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-responder/.venv/bin/python /opt/sv-responder/Responder.py "$@"

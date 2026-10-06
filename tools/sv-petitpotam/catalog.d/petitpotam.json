@@ -1,0 +1,1 @@
+{"schema":1,"name":"petitpotam","group":"active-directory","description":"MS-EFSRPC coercion (PetitPotam)","packaging":"svent","package":"sv-petitpotam","executables":["petitpotam"],"official_source":"https://github.com/topotam/PetitPotam","version_policy":"svent-packaged","functional_test":["petitpotam","--help"],"functional_test_any_exit":true}

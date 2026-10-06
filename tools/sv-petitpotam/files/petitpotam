@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /opt/sv-petitpotam/.venv/bin/python /opt/sv-petitpotam/PetitPotam.py "$@"
