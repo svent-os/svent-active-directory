@@ -1,3 +1,9 @@
+sv-tools-active-directory (0.2.7) unstable; urgency=medium
+
+  * Add sv-freerdp
+
+ -- z1rov <fabian@zirov.net>  Tue, 06 Oct 2026 00:29:36 -0400
+
 sv-tools-active-directory (0.2.6) unstable; urgency=medium
 
   * Add sv-samdump2

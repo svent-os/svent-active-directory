@@ -1,0 +1,1 @@
+{"schema":1,"name":"freerdp","group":"active-directory","description":"Remote Desktop Protocol (RDP) client","packaging":"debian","package":"freerdp3-x11","executables":["xfreerdp3"],"official_source":"https://www.freerdp.com","version_policy":"follow-debian-testing","functional_test":["xfreerdp3","--version"],"functional_test_any_exit":true}
