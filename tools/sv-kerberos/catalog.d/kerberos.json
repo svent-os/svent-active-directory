@@ -1,0 +1,1 @@
+{"schema":1,"name":"kerberos","group":"active-directory","description":"Kerberos client utilities (kinit, klist, kvno)","packaging":"debian","package":"krb5-user","executables":["kinit"],"official_source":"https://web.mit.edu/kerberos","version_policy":"follow-debian-testing","functional_test":["kinit","--version"],"functional_test_any_exit":true}
