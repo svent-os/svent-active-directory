@@ -1,0 +1,1 @@
+{"schema":1,"name":"onesixtyone","group":"active-directory","description":"Fast SNMP community string scanner","packaging":"debian","package":"onesixtyone","executables":["onesixtyone"],"official_source":"https://github.com/trailofbits/onesixtyone","version_policy":"follow-debian-testing","functional_test":["onesixtyone","--version"],"functional_test_any_exit":true}
