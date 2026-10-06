@@ -1,0 +1,1 @@
+{"schema":1,"name":"godap","group":"active-directory","description":"Interactive TUI for LDAP","packaging":"svent","package":"sv-godap","executables":["godap"],"official_source":"https://github.com/Macmod/godap","version_policy":"svent-packaged","functional_test":["godap","--version"],"functional_test_any_exit":true}
