@@ -1,0 +1,1 @@
+{"schema":1,"name":"bloodyad","group":"active-directory","description":"AD privilege escalation framework","packaging":"svent","package":"sv-bloodyad","executables":["bloodyAD"],"official_source":"https://github.com/CravateRouge/bloodyAD","version_policy":"svent-packaged","functional_test":["bloodyAD","--version"],"functional_test_any_exit":true}
