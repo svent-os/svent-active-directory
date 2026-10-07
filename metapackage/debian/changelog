@@ -1,3 +1,15 @@
+sv-tools-active-directory (0.3.2) unstable; urgency=medium
+
+  * Add sv-netexec
+
+ -- z1rov <fabian@zirov.net>  Wed, 07 Oct 2026 00:15:30 -0400
+
+sv-tools-active-directory (0.3.1) unstable; urgency=medium
+
+  * Add sv-netexec
+
+ -- z1rov <fabian@zirov.net>  Wed, 07 Oct 2026 00:14:25 -0400
+
 sv-tools-active-directory (0.3.0) unstable; urgency=medium
 
   * Final AD set (donpapi/aclpwn excluded, blocked upstream).

@@ -44,8 +44,16 @@ snaffler https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7
 sharpgpoabuse https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_x64/SharpGPOAbuse.exe SharpGPOAbuse.exe
 group3r https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_x64/Group3r.exe Group3r.exe
 sharpchrome https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_x64/SharpChrome.exe SharpChrome.exe
-spoolsample https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_x64/SpoolSample.exe SpoolSample.exe
 printspoofer https://github.com/itm4n/PrintSpoofer/releases/latest/download/PrintSpoofer64.exe PrintSpoofer64.exe
 printspoofer https://github.com/itm4n/PrintSpoofer/releases/latest/download/PrintSpoofer32.exe PrintSpoofer32.exe
 godpotato https://github.com/BeichenDream/GodPotato/releases/latest/download/GodPotato-NET4.exe GodPotato-NET4.exe
 godpotato https://github.com/BeichenDream/GodPotato/releases/latest/download/GodPotato-NET35.exe GodPotato-NET35.exe
+sysinternals https://live.sysinternals.com/PsExec.exe PsExec.exe
+sysinternals https://live.sysinternals.com/PsExec64.exe PsExec64.exe
+sysinternals https://live.sysinternals.com/procdump.exe procdump.exe
+sysinternals https://live.sysinternals.com/procdump64.exe procdump64.exe
+sysinternals https://live.sysinternals.com/accesschk.exe accesschk.exe
+sysinternals https://live.sysinternals.com/accesschk64.exe accesschk64.exe
+sysinternals https://live.sysinternals.com/PsLoggedon64.exe PsLoggedon64.exe
+sysinternals https://live.sysinternals.com/PsService.exe PsService.exe
+sysinternals https://live.sysinternals.com/PsService64.exe PsService64.exe

@@ -1,0 +1,1 @@
+{"schema":1,"name":"netexec","group":"active-directory","description":"Network service exploitation framework (CrackMapExec successor)","packaging":"svent","package":"sv-netexec","executables":["nxc","netexec"],"official_source":"https://github.com/Pennyw0rth/NetExec","version_policy":"svent-packaged","functional_test":["nxc","--version"],"functional_test_any_exit":true}

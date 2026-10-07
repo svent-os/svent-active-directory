@@ -25,9 +25,6 @@ case "$1" in
       mkdir -p "$ROOT/sharphound"
       curl -sfL "https://github.com/SpecterOps/SharpHound/releases/download/v${sver}/SharpHound_v${sver}_windows_x86.zip" -o /tmp/sh.zip && unzip -oq /tmp/sh.zip -d "$ROOT/sharphound" && rm -f /tmp/sh.zip && echo "  [+] sharphound v$sver" || echo "  [!] sharphound" >&2
     fi
-    # sysinternals suite
-    mkdir -p "$ROOT/sysinternals"
-    curl -sfL --max-time 180 "https://download.sysinternals.com/files/SysinternalsSuite.zip" -o /tmp/sys.zip && unzip -oq /tmp/sys.zip -d "$ROOT/sysinternals" && rm -f /tmp/sys.zip && echo "  [+] sysinternals" || echo "  [!] sysinternals" >&2
     echo "sv-armory-ad: done. List with: armory-ad"
     ;;
 esac
