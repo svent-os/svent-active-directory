@@ -1,6 +1,6 @@
 Upstream software retains its original license.
-Source: donpapi
-Version: 2.0.1
+Source: https://github.com/login-securite/DonPAPI
+Version: 2.1.0, commit 4f01e2b893d3dfbc327b68797943cc2f00c5dd94
 
 GPL-3.0
 https://github.com/login-securite/DonPAPI/blob/main/LICENSE

@@ -1,3 +1,10 @@
+sv-donpapi (0.1.1) unstable; urgency=medium
+
+  * Build pinned upstream 2.1.0 source with Python 3.13-compatible dependencies.
+  * Require a prebuilt lxml wheel in the private environment.
+
+ -- z1rov <fabian@zirov.net>  Sat, 10 Oct 2026 19:00:00 -0500
+
 sv-donpapi (0.1.0) unstable; urgency=medium
 
   * Package DonPAPI in a private Python environment.

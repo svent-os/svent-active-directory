@@ -21,6 +21,6 @@
     "prefix": "/opt/sv-donpapi",
     "python": "/opt/sv-donpapi/bin/python"
   },
-  "upstream_version": "2.0.1",
+  "upstream_version": "2.1.0+git.4f01e2b893d3",
   "functional_test_any_exit": true
 }

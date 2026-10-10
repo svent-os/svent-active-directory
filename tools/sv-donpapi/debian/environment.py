@@ -154,6 +154,8 @@ def build():
         constraints.write_text("setuptools==" + pins["setuptools"] + "\n" +
                                "\n".join(META.get("constraints", [])) + "\n")
         ENV["PIP_CONSTRAINT"] = str(constraints)
+        if META.get("binary_dependencies"):
+            ENV["PIP_ONLY_BINARY"] = ",".join(META["binary_dependencies"])
         if kind == "pypi":
             pip("install", META["source"] + "==" + META["version"])
         else:

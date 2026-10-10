@@ -1,7 +1,7 @@
 {
-  "source": "donpapi",
-  "version": "2.0.1",
-  "kind": "pypi",
+  "source": "https://github.com/login-securite/DonPAPI",
+  "version": "4f01e2b893d3dfbc327b68797943cc2f00c5dd94",
+  "kind": "git-python",
   "package": "sv-donpapi",
   "commands": {
     "donpapi": "bin/donpapi",
@@ -18,9 +18,17 @@
     "setuptools": "80.9.0"
   },
   "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
-  "install_project": false,
+  "install_project": true,
   "constraints": [
-    "pyOpenSSL==23.2.0"
+    "dploot==3.1.2",
+    "impacket==0.13.1",
+    "lxml==6.1.3"
   ],
-  "upstream_license": "GPL-3.0"
+  "upstream_license": "GPL-3.0",
+  "upstream_release": "2.1.0",
+  "archive_url": "https://codeload.github.com/login-securite/DonPAPI/tar.gz/4f01e2b893d3dfbc327b68797943cc2f00c5dd94",
+  "sha256": "3f5d505b21a8bf8aa3f0283ec4a034c5c0b6d111e005988fcb0b1ae9e97b7841",
+  "binary_dependencies": [
+    "lxml"
+  ]
 }
