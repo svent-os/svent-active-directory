@@ -1,1 +1,24 @@
-{"schema":1,"name":"roadrecon","group":"active-directory","description":"Azure AD (Entra) recon tool","packaging":"svent","package":"sv-roadrecon","executables":["roadrecon"],"official_source":"https://github.com/dirkjanm/ROADtools","version_policy":"svent-packaged","functional_test":["roadrecon","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "roadrecon",
+  "group": "active-directory",
+  "description": "Azure AD (Entra) recon tool",
+  "packaging": "svent",
+  "package": "sv-roadrecon",
+  "executables": [
+    "roadrecon"
+  ],
+  "official_source": "https://github.com/dirkjanm/ROADtools",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "roadrecon",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-roadrecon",
+    "python": "/opt/sv-roadrecon/bin/python"
+  },
+  "upstream_version": "2.0.0"
+}

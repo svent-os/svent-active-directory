@@ -1,1 +1,24 @@
-{"schema":1,"name":"certipy","group":"active-directory","description":"AD Certificate Services enumeration and abuse","packaging":"svent","package":"sv-certipy","executables":["certipy"],"official_source":"https://github.com/ly4k/Certipy","version_policy":"svent-packaged","functional_test":["certipy","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "certipy",
+  "group": "active-directory",
+  "description": "AD Certificate Services enumeration and abuse",
+  "packaging": "svent",
+  "package": "sv-certipy",
+  "executables": [
+    "certipy"
+  ],
+  "official_source": "https://github.com/ly4k/Certipy",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "certipy",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-certipy",
+    "python": "/opt/sv-certipy/bin/python"
+  },
+  "upstream_version": "5.1.0"
+}

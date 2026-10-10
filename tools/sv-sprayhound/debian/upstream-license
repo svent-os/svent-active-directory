@@ -1,0 +1,14 @@
+Upstream software retains its original license.
+Source: sprayhound
+Version: 0.0.4
+
+{
+  "expression": null,
+  "license": "MIT",
+  "license_classifiers": [
+    "License :: OSI Approved :: MIT License"
+  ],
+  "homepage": {
+    "Homepage": "https://github.com/hackanddo/sprayhound"
+  }
+}

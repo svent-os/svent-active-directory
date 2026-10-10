@@ -1,1 +1,24 @@
-{"schema":1,"name":"powerview","group":"active-directory","description":"PowerView for Linux (Python)","packaging":"svent","package":"sv-powerview","executables":["powerview"],"official_source":"https://github.com/aniqfakhrul/powerview.py","version_policy":"svent-packaged","functional_test":["powerview","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "powerview",
+  "group": "active-directory",
+  "description": "PowerView for Linux (Python)",
+  "packaging": "svent",
+  "package": "sv-powerview",
+  "executables": [
+    "powerview"
+  ],
+  "official_source": "https://github.com/aniqfakhrul/powerview.py",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "powerview",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-powerview",
+    "python": "/opt/sv-powerview/bin/python"
+  },
+  "upstream_version": "ea133da24ac9f51879f89a559c3fe575e3d1c801"
+}

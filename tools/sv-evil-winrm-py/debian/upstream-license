@@ -1,0 +1,15 @@
+Upstream software retains its original license.
+Source: evil-winrm-py
+Version: 1.7.0
+
+{
+  "expression": null,
+  "license": "MIT",
+  "license_classifiers": [
+    "License :: OSI Approved :: MIT License"
+  ],
+  "homepage": {
+    "Download": "https://github.com/adityatelange/evil-winrm-py/archive/v1.7.0.zip",
+    "Homepage": "https://github.com/adityatelange/evil-winrm-py"
+  }
+}

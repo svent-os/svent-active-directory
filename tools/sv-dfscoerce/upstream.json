@@ -1,0 +1,28 @@
+{
+  "source": "Wh04m1001/DFSCoerce",
+  "version": "e6f50871f17a881039afad9836a136db17d30d2b",
+  "updated_at": "2022-06-23T15:48:05Z",
+  "sha256": "6f8b9a981288cc3e34116ce3c9edd54374914fdb38c31a82bf31916e2d6bf63c",
+  "archive_url": "https://codeload.github.com/Wh04m1001/DFSCoerce/tar.gz/e6f50871f17a881039afad9836a136db17d30d2b",
+  "kind": "git-python",
+  "package": "sv-dfscoerce",
+  "commands": {
+    "dfscoerce": "source/dfscoerce.py"
+  },
+  "test_command": "dfscoerce",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "requirements": [
+    "impacket==0.13.1"
+  ],
+  "install_project": false,
+  "upstream_license": "No redistribution license found; upstream code is not included in this package",
+  "redistribution": "download-at-install"
+}

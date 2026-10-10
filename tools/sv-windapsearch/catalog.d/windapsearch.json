@@ -1,1 +1,24 @@
-{"schema":1,"name":"windapsearch","group":"active-directory","description":"LDAP AD enumeration","packaging":"svent","package":"sv-windapsearch","executables":["windapsearch"],"official_source":"https://github.com/ropnop/windapsearch","version_policy":"svent-packaged","functional_test":["windapsearch","--help"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "windapsearch",
+  "group": "active-directory",
+  "description": "LDAP AD enumeration",
+  "packaging": "svent",
+  "package": "sv-windapsearch",
+  "executables": [
+    "windapsearch"
+  ],
+  "official_source": "https://github.com/ropnop/windapsearch",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "windapsearch",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-windapsearch",
+    "python": "/opt/sv-windapsearch/bin/python"
+  },
+  "upstream_version": "7724ec4191d72ef6c26f59cf1ba61ea971718dea"
+}

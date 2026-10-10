@@ -2,12 +2,12 @@ Source: sv-evil-winrm
 Section: net
 Priority: optional
 Maintainer: z1rov <fabian@zirov.net>
-Build-Depends: debhelper-compat (= 13), ruby, ruby-dev, build-essential, libreadline-dev
+Build-Depends: debhelper-compat (= 13), python3 (>= 3.13~), ruby3.3, ruby3.3-dev, build-essential, pkg-config, libssl-dev, libreadline-dev, libffi-dev, ca-certificates
 Standards-Version: 4.7.0
 
 Package: sv-evil-winrm
-Architecture: amd64
-Depends: svent-core, ruby, libcurl4t64 | libcurl4, ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Depends: svent-core (>= 0.4.4), ${shlibs:Depends}, ${misc:Depends}, ruby3.3, ca-certificates
 Description: Svent active-directory tool: evil-winrm
  Vendored and isolated under /opt/sv-evil-winrm so its dependencies never
  touch the system packages or other tools.

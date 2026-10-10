@@ -1,0 +1,900 @@
+{
+  "schema": 1,
+  "package": "sv-armory-ad",
+  "redistribution": "download-at-install",
+  "resources": [
+    {
+      "category": "winpeas",
+      "url": "https://github.com/peass-ng/PEASS-ng/releases/download/20261010-26cb635b/winPEASx64.exe",
+      "filename": "winPEASx64.exe",
+      "version": "20261010-26cb635b",
+      "type": "file",
+      "sha256": "f12641981726921d589901fe06cd979f10caa5fcb7f4b873b27bb94883442b3e",
+      "size": 11672576,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/peass-ng/PEASS-ng"
+    },
+    {
+      "category": "winpeas",
+      "url": "https://github.com/peass-ng/PEASS-ng/releases/download/20261010-26cb635b/winPEASx86.exe",
+      "filename": "winPEASx86.exe",
+      "version": "20261010-26cb635b",
+      "type": "file",
+      "sha256": "2abb1f4064f4b0d9efababc74b696946643fc4647f49e4cd70905199d2797743",
+      "size": 11673600,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/peass-ng/PEASS-ng"
+    },
+    {
+      "category": "winpeas",
+      "url": "https://github.com/peass-ng/PEASS-ng/releases/download/20261010-26cb635b/winPEASany.exe",
+      "filename": "winPEASany.exe",
+      "version": "20261010-26cb635b",
+      "type": "file",
+      "sha256": "17e26a49d10c31b7cf8111ee43c2efe7fae166c209dcc9a6e4931779b88a4440",
+      "size": 11673600,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/peass-ng/PEASS-ng"
+    },
+    {
+      "category": "powerup",
+      "url": "https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/d943001a7defb5e0d1657085a77a0e78609be58f/Privesc/PowerUp.ps1",
+      "filename": "PowerUp.ps1",
+      "version": "d943001a7defb5e0d1657085a77a0e78609be58f",
+      "type": "file",
+      "sha256": "9d59d4c128570eb80c0e8d13e2185030f93d965278b203c91dd196b2e1d3cd22",
+      "size": 600580,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/d943001a7defb5e0d1657085a77a0e78609be58f/Privesc/PowerUp.ps1"
+    },
+    {
+      "category": "powerview",
+      "url": "https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/d943001a7defb5e0d1657085a77a0e78609be58f/Recon/PowerView.ps1",
+      "filename": "PowerView.ps1",
+      "version": "d943001a7defb5e0d1657085a77a0e78609be58f",
+      "type": "file",
+      "sha256": "507e8666c239397561c58609f7ea569c9c49ddbb900cd260e7e42b02d03cfd87",
+      "size": 770279,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/d943001a7defb5e0d1657085a77a0e78609be58f/Recon/PowerView.ps1"
+    },
+    {
+      "category": "adrecon",
+      "url": "https://raw.githubusercontent.com/adrecon/ADRecon/d2ba12c71aef40e07cfe6be6fd98e94f2406b85c/ADRecon.ps1",
+      "filename": "ADRecon.ps1",
+      "version": "d2ba12c71aef40e07cfe6be6fd98e94f2406b85c",
+      "type": "file",
+      "sha256": "ec54e9e5802423d17f1390a25a811b7779c33d8e7ad942cd731dfd366998eccb",
+      "size": 595937,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/adrecon/ADRecon/d2ba12c71aef40e07cfe6be6fd98e94f2406b85c/ADRecon.ps1"
+    },
+    {
+      "category": "powerupsql",
+      "url": "https://raw.githubusercontent.com/NetSPI/PowerUpSQL/7d73373b0751b8648a800fbeef4c00ced66eba58/PowerUpSQL.ps1",
+      "filename": "PowerUpSQL.ps1",
+      "version": "7d73373b0751b8648a800fbeef4c00ced66eba58",
+      "type": "file",
+      "sha256": "7a34fcb1fde516f523941549830ff80443a555dd64346f5b773ede24847207d6",
+      "size": 1259564,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/NetSPI/PowerUpSQL/7d73373b0751b8648a800fbeef4c00ced66eba58/PowerUpSQL.ps1"
+    },
+    {
+      "category": "privesccheck",
+      "url": "https://github.com/itm4n/PrivescCheck/releases/download/2026.10.07-1/PrivescCheck.ps1",
+      "filename": "PrivescCheck.ps1",
+      "version": "2026.10.07-1",
+      "type": "file",
+      "sha256": "3f7373f9031f37740b23b652849c36de666a12e4dbcabdaf8b334465c5967360",
+      "size": 949377,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/itm4n/PrivescCheck"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Invoke-Obfuscation.psd1",
+      "filename": "Invoke-Obfuscation.psd1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "9521883a37c093f31e9d3fde7d3293f637ea51ce573c3fa7967843b7e51d8dd0",
+      "size": 2260,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Invoke-Obfuscation.psd1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Invoke-Obfuscation.psm1",
+      "filename": "Invoke-Obfuscation.psm1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "9c409702151446f1eb8d951b45a902f2dbad1ebeacab9dd9beeaa5530e65ad0c",
+      "size": 4815,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Invoke-Obfuscation.psm1"
+    },
+    {
+      "category": "adcspwn",
+      "url": "https://github.com/bats3c/ADCSPwn/releases/download/v1.0/ADCSPwn.exe",
+      "filename": "ADCSPwn.exe",
+      "version": "v1.0",
+      "type": "file",
+      "sha256": "8664d6a77bc26b629d7828266e8c51070d346ce8750eb483227f08ae36923b71",
+      "size": 729088,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/bats3c/ADCSPwn"
+    },
+    {
+      "category": "lazagne",
+      "url": "https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.7/LaZagne.exe",
+      "filename": "lazagne.exe",
+      "version": "v2.4.7",
+      "type": "file",
+      "sha256": "dc06d62ee95062e714f2566c95b8edaabfd387023b1bf98a09078b84007d5268",
+      "size": 10136093,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/AlessandroZ/LaZagne"
+    },
+    {
+      "category": "sqlrecon",
+      "url": "https://github.com/skahwah/SQLRecon/releases/download/v4.0/SQLRecon.exe",
+      "filename": "SQLRecon.exe",
+      "version": "v4.0",
+      "type": "file",
+      "sha256": "3afce83fab12cdb4fa8439d8f1dfe2146a6a8c0e4b9761c6ee266f601027916b",
+      "size": 226816,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/skahwah/SQLRecon"
+    },
+    {
+      "category": "rubeus",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Rubeus.exe",
+      "filename": "Rubeus.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "a2d95bc312c2c2ce4308007fd04303693ccadef80ee5ce695e50815a608e7e7f",
+      "size": 473600,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Rubeus.exe"
+    },
+    {
+      "category": "seatbelt",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Seatbelt.exe",
+      "filename": "Seatbelt.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "81879b517fb1585cb0da2a151d41f3b321906a8b868b48101f813f5f99d75095",
+      "size": 610304,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Seatbelt.exe"
+    },
+    {
+      "category": "sharpup",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpUp.exe",
+      "filename": "SharpUp.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "68db71979161e3624cef37e3cd4ca70267fb5397477e5129b4a5aecb599e1a86",
+      "size": 38912,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpUp.exe"
+    },
+    {
+      "category": "sharpview",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpView.exe",
+      "filename": "SharpView.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "9d2252e50b87f22a2a0f5c42d8c6f200a47ea714881d26b64079c8094b87c415",
+      "size": 733696,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpView.exe"
+    },
+    {
+      "category": "sharpsqlpwn",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpSQLPwn.exe",
+      "filename": "SharpSQLPwn.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "c9d35c1114b0ff89bca0434df8e1c39d581b5ab91789d7b883ea9189e94bc8f7",
+      "size": 50176,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpSQLPwn.exe"
+    },
+    {
+      "category": "sharpapplocker",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpAppLocker.exe",
+      "filename": "SharpAppLocker.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "bd43503a9105de8acb54f9dc566d68f3bb7d9b75fdb2ceb5fe939d52791bfdf5",
+      "size": 297472,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpAppLocker.exe"
+    },
+    {
+      "category": "krbrelayup",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/KrbRelayUp.exe",
+      "filename": "KrbRelayUp.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "f401f7bdae8094f273ab86529a90d93a192fed69897b908d1f5cc94f625b6b88",
+      "size": 1112064,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/KrbRelayUp.exe"
+    },
+    {
+      "category": "certify",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Certify.exe",
+      "filename": "Certify.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "45e24a06c38e2ffb00cb653f0067b2c44e44898558b3f1e29cdc39d1fcc344f4",
+      "size": 995328,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Certify.exe"
+    },
+    {
+      "category": "forgecert",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/ForgeCert.exe",
+      "filename": "ForgeCert.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "ec874f9f7bb54acec3f70c9ab0c2d26209207c2c955c976d88f81536905b1270",
+      "size": 12288,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/ForgeCert.exe"
+    },
+    {
+      "category": "whisker",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Whisker.exe",
+      "filename": "Whisker.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "e2b42bc66ea8511f1eba15b8e37888109dc386a0e6c16422d5dd5d01f2d20985",
+      "size": 41472,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Whisker.exe"
+    },
+    {
+      "category": "passthecert",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/PassTheCert.exe",
+      "filename": "PassTheCert.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "58ee89381d7e911e0588b9a2ad0ba912cf459b78ace67ad876ee8ee97c5496df",
+      "size": 29696,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/PassTheCert.exe"
+    },
+    {
+      "category": "standin",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/StandIn.exe",
+      "filename": "StandIn.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "e48809ab75e87f292c750750cf65e4c0fcbf57d232f0886428ab72595988842c",
+      "size": 165376,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/StandIn.exe"
+    },
+    {
+      "category": "runascs",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/RunasCs.exe",
+      "filename": "RunasCs.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "885079d33fb490a576301bcb9533cc99f08ded2f8a77745de161e2f1bc660377",
+      "size": 52736,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/RunasCs.exe"
+    },
+    {
+      "category": "adsearch",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/ADSearch.exe",
+      "filename": "ADSearch.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "768cac099c914d14ea92f9167a8893c347527774ac71e001a746177d13806ba7",
+      "size": 376320,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/ADSearch.exe"
+    },
+    {
+      "category": "sharpdpapi",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpDPAPI.exe",
+      "filename": "SharpDPAPI.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "72684c3ac9d2fc4f17b235d46784750d70404f5347bedfd0ecc90b7a4667ebc7",
+      "size": 155136,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpDPAPI.exe"
+    },
+    {
+      "category": "safetykatz",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SafetyKatz.exe",
+      "filename": "SafetyKatz.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "4d24f3932f028ac9d06c80770c3390ec3ce163d6e07344b4e3daa9c93061192d",
+      "size": 730624,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SafetyKatz.exe"
+    },
+    {
+      "category": "watson",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Watson.exe",
+      "filename": "Watson.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "bbd166c903446a57bcbd964e727df50b58a8c8ec8b69b5dd80725497a6e4ceac",
+      "size": 26112,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Watson.exe"
+    },
+    {
+      "category": "sharpbypassuac",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpBypassUAC.exe",
+      "filename": "SharpBypassUAC.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "29b1014789a969ec7aafc64bd17de1483775e2199de791b622718bb11be69729",
+      "size": 25088,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpBypassUAC.exe"
+    },
+    {
+      "category": "sharpwmi",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpWMI.exe",
+      "filename": "SharpWMI.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "6a2158efbb16b6dfbf1bd5be12b9cf3bf7cdbc02db51d79ba6aeb4557db6ae0b",
+      "size": 53760,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpWMI.exe"
+    },
+    {
+      "category": "sharpcom",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpCOM.exe",
+      "filename": "SharpCOM.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "5f27ca4597ebd322f8fca8f3f74a1771d0e5a3f2f9d53779345f73f62c9f5440",
+      "size": 22528,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpCOM.exe"
+    },
+    {
+      "category": "sharpmove",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpMove.exe",
+      "filename": "SharpMove.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "99d99773e625f0911c59c0cbe0a4fbf0c645cf177379734d9fd414b8da0df19c",
+      "size": 40960,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpMove.exe"
+    },
+    {
+      "category": "sharpnamedpipepth",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpNamedPipePTH.exe",
+      "filename": "SharpNamedPipePTH.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "a5e673ab3d8d4159b611981668487376eb2c61e3e3715dea1b50ec18d64eef76",
+      "size": 117248,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpNamedPipePTH.exe"
+    },
+    {
+      "category": "inveigh",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Inveigh.exe",
+      "filename": "Inveigh.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "332346668c99d0c6bd383f9a0f6c32e7ea3cedf4788468d1d373d3f106f4469d",
+      "size": 124416,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Inveigh.exe"
+    },
+    {
+      "category": "sharpsccm",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpSCCM.exe",
+      "filename": "SharpSCCM.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "83d40af90d48140a48f941ab4965c4a65a2b7d7beee07065c4c7e909dcf0c4cc",
+      "size": 1130496,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpSCCM.exe"
+    },
+    {
+      "category": "sharprdp",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpRDP.exe",
+      "filename": "SharpRDP.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "43c1a32158fa01f876c670e53c90f43ebdf4cf61f7b8cc683f06c0c76250bb1a",
+      "size": 329216,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpRDP.exe"
+    },
+    {
+      "category": "sharpdump",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpDump.exe",
+      "filename": "SharpDump.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "bd326bcb0c8473cbae427c5e7cdfdb9b9cdab27d0df73f67c704eeb962f8db96",
+      "size": 7680,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpDump.exe"
+    },
+    {
+      "category": "sharpsecdump",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpSecDump.exe",
+      "filename": "SharpSecDump.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "ca323320d623f75680a923d869afe2185555725ace4c2b59534151e3c136fd38",
+      "size": 41472,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpSecDump.exe"
+    },
+    {
+      "category": "sharpwebserver",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpWebServer.exe",
+      "filename": "SharpWebServer.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "592277a3e892f5ca09fc1b679add6180547d7f20849e724dec00bcff560ecd3a",
+      "size": 81920,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpWebServer.exe"
+    },
+    {
+      "category": "sweetpotato",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SweetPotato.exe",
+      "filename": "SweetPotato.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "78d80338245ecb35c923d473ebec0ceb87beeeec8d1d1664a5ccede37d95140a",
+      "size": 926208,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SweetPotato.exe"
+    },
+    {
+      "category": "snaffler",
+      "url": "https://github.com/SnaffCon/Snaffler/releases/download/1.0.244/Snaffler.exe",
+      "filename": "Snaffler.exe",
+      "version": "1.0.244",
+      "type": "file",
+      "sha256": "397b22a956545ba9cd5f03f0f61cb16e4760db21be97f979a5cfc059c2f854ca",
+      "size": 494592,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/SnaffCon/Snaffler"
+    },
+    {
+      "category": "sharpgpoabuse",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpGPOAbuse.exe",
+      "filename": "SharpGPOAbuse.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "beb243fef504b0989ebb7c2dc76e69cd9d003965e773aa14188bf9537dbe69ba",
+      "size": 70656,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpGPOAbuse.exe"
+    },
+    {
+      "category": "group3r",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Group3r.exe",
+      "filename": "Group3r.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "4667f13775539fd144e8fdca5e0115374585ae23ff9167fde2c584eef7553252",
+      "size": 582144,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/Group3r.exe"
+    },
+    {
+      "category": "sharpchrome",
+      "url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpChrome.exe",
+      "filename": "SharpChrome.exe",
+      "version": "19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5",
+      "type": "file",
+      "sha256": "f8ada8f472bcd7203f833bfd466f695067f73241cc031e553bf076209482f812",
+      "size": 754688,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/Flangvik/SharpCollection/19c2a5b342c8fc9c1d42aa5664de61ea21a5aaa5/NetFramework_4.7_x64/SharpChrome.exe"
+    },
+    {
+      "category": "printspoofer",
+      "url": "https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe",
+      "filename": "PrintSpoofer64.exe",
+      "version": "v1.0",
+      "type": "file",
+      "sha256": "8524fbc0d73e711e69d60c64f1f1b7bef35c986705880643dd4d5e17779e586d",
+      "size": 27136,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/itm4n/PrintSpoofer"
+    },
+    {
+      "category": "printspoofer",
+      "url": "https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe",
+      "filename": "PrintSpoofer32.exe",
+      "version": "v1.0",
+      "type": "file",
+      "sha256": "47c9eff8142490a2c341701aab7aaebc355eed1540eed534a8317dd1e65614b2",
+      "size": 22016,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/itm4n/PrintSpoofer"
+    },
+    {
+      "category": "godpotato",
+      "url": "https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET4.exe",
+      "filename": "GodPotato-NET4.exe",
+      "version": "V1.20",
+      "type": "file",
+      "sha256": "9a8e9d587b570d4074f1c8317b163aa8d0c566efd88f294d9d85bc7776352a28",
+      "size": 57344,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/BeichenDream/GodPotato"
+    },
+    {
+      "category": "godpotato",
+      "url": "https://github.com/BeichenDream/GodPotato/releases/download/V1.20/GodPotato-NET35.exe",
+      "filename": "GodPotato-NET35.exe",
+      "version": "V1.20",
+      "type": "file",
+      "sha256": "3027a212272957298bf4d32505370fa63fb162d6a6a6ec091af9d7626317a858",
+      "size": 57344,
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/BeichenDream/GodPotato"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/PsExec.exe",
+      "filename": "PsExec.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "078163d5c16f64caa5a14784323fd51451b8c831c73396b967b4e35e6879937b",
+      "size": 716176,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/PsExec64.exe",
+      "filename": "PsExec64.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "edfae1a69522f87b12c6dac3225d930e4848832e3c551ee1e7d31736bf4525ef",
+      "size": 833472,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/procdump.exe",
+      "filename": "procdump.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "264e7ab0e27dc1545e70d14c9db8c11d1e402d7e4e2863ebf66964fee6644f1c",
+      "size": 1370432,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/procdump64.exe",
+      "filename": "procdump64.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "d1fc99ae304bd1d2bf28abeb62531da959e2431916194981b88c958fd713a8e6",
+      "size": 741216,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/accesschk.exe",
+      "filename": "accesschk.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "69bd46e5dba2767a63408731b0c7842b9ac37aeb67586682efce4cc51057d793",
+      "size": 1468320,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/accesschk64.exe",
+      "filename": "accesschk64.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "843b6b1d275946f2c4569169c10c50eec0968c4b2f0bed68c50e79f828fab9f3",
+      "size": 810416,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/PsLoggedon64.exe",
+      "filename": "PsLoggedon64.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "fdadb6e15c52c41a31e3c22659dd490d5b616e017d1b1aa6070008ce09ed27ea",
+      "size": 170160,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/PsService.exe",
+      "filename": "PsService.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "d3a816fe5d545a80e4639b34b90d92d1039eb71ef59e6e81b3c0e043a45b751c",
+      "size": 268168,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "sysinternals",
+      "url": "https://live.sysinternals.com/PsService64.exe",
+      "filename": "PsService64.exe",
+      "version": "live",
+      "type": "file",
+      "sha256": "554f523914cdbaed8b17527170502199c185bd69a41c81102c50dbb0e5e5a78d",
+      "size": 322440,
+      "redistribution": "download-at-install",
+      "license_url": "https://learn.microsoft.com/en-us/sysinternals/license-terms",
+      "license": "Microsoft Sysinternals Software License Terms"
+    },
+    {
+      "category": "mimikatz",
+      "url": "https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.zip",
+      "filename": "mimikatz_trunk.zip",
+      "version": "2.2.0-20220919",
+      "type": "zip",
+      "sha256": "7accd179e8a6b2fc907e7e8d087c52a7f48084852724b03d25bebcada1acbca5",
+      "size": 1206166,
+      "members": [
+        {
+          "path": "Win32/mimidrv.sys",
+          "sha256": "4ff7578df7293e50c9bdd48657a6ba0c60e1f6d06a2dd334f605af34fe6f75a5",
+          "size": 30552
+        },
+        {
+          "path": "Win32/mimikatz.exe",
+          "sha256": "94795fd89366e01bd6ce6471ff27c3782e2e16377a848426cf0b2e6baee9449b",
+          "size": 1084416
+        },
+        {
+          "path": "Win32/mimilib.dll",
+          "sha256": "e60c210687e79347d06f9a144ee84417ba9ac4c1f303720f2fe4509734d670d6",
+          "size": 31744
+        },
+        {
+          "path": "Win32/mimilove.exe",
+          "sha256": "cc585d962904351ce1d92195b0fc79034dc3b13144f7c7ff24cd9f768b25e9ef",
+          "size": 25088
+        },
+        {
+          "path": "Win32/mimispool.dll",
+          "sha256": "05842de51ede327c0f55df963f6de4e32ab88f43a73b9e0e1d827bc70199eff0",
+          "size": 10240
+        },
+        {
+          "path": "x64/mimidrv.sys",
+          "sha256": "d30f51bfd62695df96ba94cde14a7fae466b29ef45252c6ad19d57b4a87ff44e",
+          "size": 37208
+        },
+        {
+          "path": "x64/mimikatz.exe",
+          "sha256": "61c0810a23580cf492a6ba4f7654566108331e7a4134c968c2d6a05261b2d8a1",
+          "size": 1355264
+        },
+        {
+          "path": "x64/mimilib.dll",
+          "sha256": "aef6ce3014add838cf676b57957d630cd2bb15b0c9193cf349bcffecddbc3623",
+          "size": 37376
+        },
+        {
+          "path": "x64/mimispool.dll",
+          "sha256": "66928c3316a12091995198710e0c537430dacefac1dbe78f12a331e1520142bd",
+          "size": 10752
+        }
+      ],
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/gentilkiwi/mimikatz"
+    },
+    {
+      "category": "sharphound",
+      "url": "https://github.com/SpecterOps/SharpHound/releases/download/v2.17.0/SharpHound_v2.17.0_windows_x86.zip",
+      "filename": "SharpHound_v2.17.0_windows_x86.zip",
+      "version": "v2.17.0",
+      "type": "zip",
+      "sha256": "09ef123ada22be00a6af4dbfa28f9aa357930205f88991374373d634609efb03",
+      "size": 2540780,
+      "members": [
+        {
+          "path": "SharpHound.exe",
+          "sha256": "9fcdefc09fd7af59c608270eaaccb01d711e7545364ed8905b6247513ace9049",
+          "size": 1366016
+        },
+        {
+          "path": "SharpHound.exe.config",
+          "sha256": "9e33249d43563df004ea6a52562bb406f446e4bc2366379bcd7cb785bdf4af77",
+          "size": 553
+        }
+      ],
+      "redistribution": "download-at-install",
+      "license_url": "https://github.com/SpecterOps/SharpHound"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Invoke-Obfuscation.ps1",
+      "filename": "Invoke-Obfuscation.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "a10190903dfb52127ae37214a8c0124c68fc2f7fc91d0bae55eb9f556fa3c8dd",
+      "size": 131795,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Invoke-Obfuscation.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-CompressedCommand.ps1",
+      "filename": "Out-CompressedCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "c39d2a1c303847785a2a2af357dd948f5e6ec8194eb427c52a391db90de34f72",
+      "size": 40532,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-CompressedCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedAsciiCommand.ps1",
+      "filename": "Out-EncodedAsciiCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "a83c33f484a2cbff3bbefdf51880714968930f69778e8921d8182d2b96e03314",
+      "size": 46942,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedAsciiCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedBXORCommand.ps1",
+      "filename": "Out-EncodedBXORCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "46793c55c24e616a0d4eaaa0090b70bdde05e50c1b58da753d09063e6e838cc6",
+      "size": 49484,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedBXORCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedBinaryCommand.ps1",
+      "filename": "Out-EncodedBinaryCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "40ce2ea4f4a90332a6e554ddbd9b801e22df018458127ae6ad1243c7d25a5523",
+      "size": 51028,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedBinaryCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedHexCommand.ps1",
+      "filename": "Out-EncodedHexCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "3615ddbae2c65e978aa8006c26b5c4a66c2e9433a1460b17ef700a39a708e5c1",
+      "size": 49340,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedHexCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedOctalCommand.ps1",
+      "filename": "Out-EncodedOctalCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "5fa4acad2bf202e61149a7f47189c4d60ac2823ea26d0f449912ab9d28ad0806",
+      "size": 48866,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedOctalCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedSpecialCharOnlyCommand.ps1",
+      "filename": "Out-EncodedSpecialCharOnlyCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "cecbe047e33d2dc3bc06cc7a62546a4e1a793d8da1dde4ba3aa021f944930d6d",
+      "size": 51672,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedSpecialCharOnlyCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedWhitespaceCommand.ps1",
+      "filename": "Out-EncodedWhitespaceCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "77c88d4c67b3600e78f82c938d2ef72525277647a27692b2114c9688bf1da121",
+      "size": 62620,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-EncodedWhitespaceCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-ObfuscatedAst.ps1",
+      "filename": "Out-ObfuscatedAst.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "aebd043e124f60e27568944dc90e788652c4f9a93e5ca259fbcd747cb8de0bbb",
+      "size": 258616,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-ObfuscatedAst.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-ObfuscatedStringCommand.ps1",
+      "filename": "Out-ObfuscatedStringCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "5ed84b98241dd1db44e9e3beae6ec07ce8c64cd9200b73954617113578f91317",
+      "size": 100300,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-ObfuscatedStringCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-ObfuscatedTokenCommand.ps1",
+      "filename": "Out-ObfuscatedTokenCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "d683205c9fad76e28a8e4cd0d72285e9a8573cc95c8b77f30186089459675817",
+      "size": 213452,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-ObfuscatedTokenCommand.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-PowerShellLauncher.ps1",
+      "filename": "Out-PowerShellLauncher.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "abd9f4b93fc3f2bb0612bfbdef4e0da8797e985e7377ee0c08c2b5b5198c2743",
+      "size": 195774,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-PowerShellLauncher.ps1"
+    },
+    {
+      "category": "invoke-obfuscation",
+      "url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-SecureStringCommand.ps1",
+      "filename": "Out-SecureStringCommand.ps1",
+      "version": "f20e7f843edd0a3a7716736e9eddfa423395dd26",
+      "type": "file",
+      "sha256": "525bb5e67378b9bdc298aceb9e0108603741ae334e8ce748222999fcb2f1d818",
+      "size": 50590,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-SecureStringCommand.ps1"
+    }
+  ]
+}

@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-nbtscan
 Architecture: all
-Depends: svent-core, nbtscan, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), nbtscan, ${misc:Depends}
 Description: Svent active-directory tool: nbtscan
  Installs nbtscan and registers it in the Svent catalog and menu.

@@ -1,0 +1,14 @@
+Upstream software retains its original license.
+Source: mitm6
+Version: 0.3.0
+
+{
+  "expression": null,
+  "license": "GPLv2",
+  "license_classifiers": [
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)"
+  ],
+  "homepage": {
+    "Homepage": "https://github.com/dirkjanm/mitm6/"
+  }
+}

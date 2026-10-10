@@ -1,0 +1,15 @@
+Upstream software retains its original license.
+Source: bloodyAD
+Version: 2.5.5
+
+{
+  "expression": null,
+  "license": null,
+  "license_classifiers": [
+    "License :: OSI Approved :: MIT License"
+  ],
+  "homepage": {
+    "Bug Tracker": "https://github.com/CravateRouge/bloodyAD/issues",
+    "Homepage": "https://github.com/CravateRouge/bloodyAD"
+  }
+}

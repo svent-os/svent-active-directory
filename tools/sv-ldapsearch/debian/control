@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-ldapsearch
 Architecture: all
-Depends: svent-core, ldap-utils, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), ldap-utils, ${misc:Depends}
 Description: Svent active-directory tool: ldapsearch
  Installs ldapsearch and registers it in the Svent catalog and menu.

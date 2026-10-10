@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-proxychains
 Architecture: all
-Depends: svent-core, proxychains4, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), proxychains4, ${misc:Depends}
 Description: Svent active-directory tool: proxychains
  Installs proxychains and registers it in the Svent catalog and menu.

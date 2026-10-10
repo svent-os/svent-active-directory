@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-smbclient
 Architecture: all
-Depends: svent-core, smbclient, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), smbclient, ${misc:Depends}
 Description: Svent active-directory tool: smbclient
  Installs smbclient and registers it in the Svent catalog and menu.

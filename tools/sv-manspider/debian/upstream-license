@@ -1,0 +1,13 @@
+Upstream software retains its original license.
+Source: man-spider
+Version: 2.0.0
+
+{
+  "expression": null,
+  "license": "GPL-3.0",
+  "license_classifiers": [],
+  "homepage": {
+    "Homepage": "https://github.com/blacklanternsecurity/MANSPIDER",
+    "Repository": "https://github.com/blacklanternsecurity/MANSPIDER"
+  }
+}

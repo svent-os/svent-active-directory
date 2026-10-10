@@ -1,0 +1,22 @@
+{
+  "source": "evil-winrm-py",
+  "version": "1.7.0",
+  "kind": "pypi",
+  "package": "sv-evil-winrm-py",
+  "commands": {
+    "evil-winrm-py": "bin/evil-winrm-py",
+    "ewp": "bin/ewp"
+  },
+  "test_command": "evil-winrm-py",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": "MIT"
+}

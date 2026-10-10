@@ -1,0 +1,30 @@
+{
+  "source": "lgandx/Responder",
+  "version": "424fbe53d6a61824e3c7685fe5f69668721b821e",
+  "updated_at": "2026-06-10T14:28:34Z",
+  "sha256": "df06ec0fbe922f0d4d9b80dd8b7a2d2a3bd3c9eb930ac67450846bfc46b15d39",
+  "archive_url": "https://codeload.github.com/lgandx/Responder/tar.gz/424fbe53d6a61824e3c7685fe5f69668721b821e",
+  "kind": "git-python",
+  "package": "sv-responder",
+  "commands": {
+    "responder": "source/Responder.py"
+  },
+  "test_command": "responder",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "source_replacements": {
+    "settings.py": {
+      "self.DatabaseFile    = os.path.join(self.ResponderPATH, config.get('Responder Core', 'Database'))": "self.DatabaseFile = os.path.join(os.environ.get(\"SVENT_RESPONDER_STATE\", os.path.expanduser(\"~/.local/state/svent/responder\")), config.get('Responder Core', 'Database'))",
+      "self.LogDir = os.path.join(self.ResponderPATH, 'logs')": "self.LogDir = os.path.join(os.environ.get(\"SVENT_RESPONDER_STATE\", os.path.expanduser(\"~/.local/state/svent/responder\")), \"logs\")"
+    }
+  },
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

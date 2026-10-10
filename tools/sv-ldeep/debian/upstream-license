@@ -1,0 +1,14 @@
+Upstream software retains its original license.
+Source: ldeep
+Version: 2.0.3
+
+{
+  "expression": null,
+  "license": "MIT",
+  "license_classifiers": [
+    "License :: OSI Approved :: MIT License"
+  ],
+  "homepage": {
+    "Homepage": "https://github.com/franc-pentest/ldeep"
+  }
+}

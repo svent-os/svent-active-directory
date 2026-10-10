@@ -1,0 +1,15 @@
+Upstream software retains its original license.
+Source: smbmap
+Version: 1.10.8
+
+{
+  "expression": null,
+  "license": null,
+  "license_classifiers": [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+  ],
+  "homepage": {
+    "Bug Tracker": "https://github.com/ShawnDEvans/smbmap/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc",
+    "Homepage": "https://github.com/ShawnDEvans/smbmap"
+  }
+}

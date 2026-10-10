@@ -2,12 +2,12 @@ Source: sv-nopac
 Section: net
 Priority: optional
 Maintainer: z1rov <fabian@zirov.net>
-Build-Depends: debhelper-compat (= 13), git, ca-certificates, python3, python3-venv, python3-dev, build-essential
+Build-Depends: debhelper-compat (= 13), python3 (>= 3.13~), python3-venv, python3-dev, build-essential, git, ca-certificates, pkg-config, libssl-dev, libffi-dev
 Standards-Version: 4.7.0
 
 Package: sv-nopac
-Architecture: amd64
-Depends: svent-core, python3, ${shlibs:Depends}, ${misc:Depends}
+Architecture: all
+Depends: svent-core (>= 0.4.4), ${misc:Depends}, python3 (>= 3.13~), python3 (<< 3.14), ca-certificates, python3-venv, python3-dev, build-essential, git, pkg-config, libssl-dev, libffi-dev
 Description: Svent active-directory tool: nopac
- Vendored and isolated under /opt/sv-nopac so its dependencies never
+ Downloaded during configuration and isolated under /opt/sv-nopac so its dependencies never
  touch the system packages or other tools.

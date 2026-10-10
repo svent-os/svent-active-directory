@@ -1,0 +1,29 @@
+{
+  "source": "Ridter/noPac",
+  "version": "28465651f17467ae964723f637bf323ccdbb1aa1",
+  "updated_at": "2023-01-29T03:31:27Z",
+  "sha256": "e2061d51746dab9f1e936edb7a30a0c56a0b27b1473b54d17a324b80e0c523f7",
+  "archive_url": "https://codeload.github.com/Ridter/noPac/tar.gz/28465651f17467ae964723f637bf323ccdbb1aa1",
+  "kind": "git-python",
+  "package": "sv-nopac",
+  "commands": {
+    "nopac": "source/noPac.py",
+    "nopac-scanner": "source/scanner.py"
+  },
+  "test_command": "nopac",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "constraints": [
+    "pyOpenSSL==23.2.0"
+  ],
+  "upstream_license": "No redistribution license found; upstream code is not included in this package",
+  "redistribution": "download-at-install"
+}

@@ -1,1 +1,24 @@
-{"schema":1,"name":"targetedkerberoast","group":"active-directory","description":"Targeted Kerberoasting","packaging":"svent","package":"sv-targetedkerberoast","executables":["targetedkerberoast"],"official_source":"https://github.com/ShutdownRepo/targetedKerberoast","version_policy":"svent-packaged","functional_test":["targetedkerberoast","--help"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "targetedkerberoast",
+  "group": "active-directory",
+  "description": "Targeted Kerberoasting",
+  "packaging": "svent",
+  "package": "sv-targetedkerberoast",
+  "executables": [
+    "targetedkerberoast"
+  ],
+  "official_source": "https://github.com/ShutdownRepo/targetedKerberoast",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "targetedkerberoast",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-targetedkerberoast",
+    "python": "/opt/sv-targetedkerberoast/bin/python"
+  },
+  "upstream_version": "ebed0790002dfae503eb5e5525a0630f131fa117"
+}

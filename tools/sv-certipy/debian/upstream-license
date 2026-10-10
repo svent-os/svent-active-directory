@@ -1,0 +1,15 @@
+Upstream software retains its original license.
+Source: certipy-ad
+Version: 5.1.0
+
+{
+  "expression": null,
+  "license": "MIT",
+  "license_classifiers": [
+    "License :: OSI Approved :: MIT License"
+  ],
+  "homepage": {
+    "Bug Tracker": "https://github.com/ly4k/Certipy/issues",
+    "Homepage": "https://github.com/ly4k/Certipy"
+  }
+}

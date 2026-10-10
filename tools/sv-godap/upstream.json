@@ -1,0 +1,15 @@
+{
+  "source": "github.com/Macmod/godap/v2",
+  "version": "v2.12.2",
+  "kind": "go",
+  "package": "sv-godap",
+  "commands": {
+    "godap": "bin/godap"
+  },
+  "test_command": "godap",
+  "test_arguments": [
+    "--help"
+  ],
+  "upstream_license": "MIT",
+  "include_corresponding_source": true
+}

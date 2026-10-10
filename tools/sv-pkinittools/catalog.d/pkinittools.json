@@ -1,1 +1,26 @@
-{"schema":1,"name":"pkinittools","group":"active-directory","description":"PKINIT / cert-based Kerberos tools","packaging":"svent","package":"sv-pkinittools","executables":["gettgtpkinit","getnthash","gets4uticket"],"official_source":"https://github.com/dirkjanm/PKINITtools","version_policy":"svent-packaged","functional_test":["gettgtpkinit","--help"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "pkinittools",
+  "group": "active-directory",
+  "description": "PKINIT / cert-based Kerberos tools",
+  "packaging": "svent",
+  "package": "sv-pkinittools",
+  "executables": [
+    "gettgtpkinit",
+    "getnthash",
+    "gets4uticket"
+  ],
+  "official_source": "https://github.com/dirkjanm/PKINITtools",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "gettgtpkinit",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-pkinittools",
+    "python": "/opt/sv-pkinittools/bin/python"
+  },
+  "upstream_version": "0f0cfa542b0348609ad494713e84744234b2d3b0"
+}

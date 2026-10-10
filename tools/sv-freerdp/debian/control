@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-freerdp
 Architecture: all
-Depends: svent-core, freerdp3-x11, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), freerdp3-x11, ${misc:Depends}
 Description: Svent active-directory tool: freerdp
  Installs freerdp and registers it in the Svent catalog and menu.

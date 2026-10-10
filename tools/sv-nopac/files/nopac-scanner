@@ -1,2 +1,0 @@
-#!/bin/sh
-exec /opt/sv-nopac/.venv/bin/python /opt/sv-nopac/scanner.py "$@"

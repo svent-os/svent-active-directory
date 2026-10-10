@@ -2,12 +2,12 @@ Source: sv-godap
 Section: net
 Priority: optional
 Maintainer: z1rov <fabian@zirov.net>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13), python3 (>= 3.13~), golang-go (>= 2:1.24~), ca-certificates
 Standards-Version: 4.7.0
 Rules-Requires-Root: no
 
 Package: sv-godap
-Architecture: amd64
-Depends: svent-core, ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Depends: svent-core (>= 0.4.4), ${shlibs:Depends}, ${misc:Depends}, ca-certificates
 Description: Svent active-directory tool: godap
  Built from upstream source.

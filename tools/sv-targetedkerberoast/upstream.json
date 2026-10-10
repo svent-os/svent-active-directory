@@ -1,0 +1,24 @@
+{
+  "source": "ShutdownRepo/targetedKerberoast",
+  "version": "ebed0790002dfae503eb5e5525a0630f131fa117",
+  "updated_at": "2024-12-16T07:32:13Z",
+  "sha256": "e0ec7f12b0fdfe22dd11e444f674c30260612ea8dc223d8b6ff9433361dffe92",
+  "archive_url": "https://codeload.github.com/ShutdownRepo/targetedKerberoast/tar.gz/ebed0790002dfae503eb5e5525a0630f131fa117",
+  "kind": "git-python",
+  "package": "sv-targetedkerberoast",
+  "commands": {
+    "targetedkerberoast": "source/targetedKerberoast.py"
+  },
+  "test_command": "targetedkerberoast",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

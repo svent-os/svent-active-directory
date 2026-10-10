@@ -1,0 +1,5 @@
+sv-donpapi (0.1.0) unstable; urgency=medium
+
+  * Package DonPAPI in a private Python environment.
+
+ -- z1rov <fabian@zirov.net>  Sat, 10 Oct 2026 16:00:00 -0500

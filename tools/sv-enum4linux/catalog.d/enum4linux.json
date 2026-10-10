@@ -1,1 +1,23 @@
-{"schema":1,"name":"enum4linux","group":"active-directory","description":"SMB/AD enumeration (Perl)","packaging":"svent","package":"sv-enum4linux","executables":["enum4linux"],"official_source":"https://github.com/CiscoCXSecurity/enum4linux","version_policy":"svent-packaged","functional_test":["enum4linux","--help"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "enum4linux",
+  "group": "active-directory",
+  "description": "SMB/AD enumeration (Perl)",
+  "packaging": "svent",
+  "package": "sv-enum4linux",
+  "executables": [
+    "enum4linux"
+  ],
+  "official_source": "https://github.com/CiscoCXSecurity/enum4linux",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "enum4linux",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "vendored-perl",
+    "prefix": "/opt/sv-enum4linux"
+  },
+  "upstream_version": "0a5b7d48a97bbda648aaf7ace47a9e4f736ef8d7"
+}

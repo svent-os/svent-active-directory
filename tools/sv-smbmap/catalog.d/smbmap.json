@@ -1,1 +1,24 @@
-{"schema":1,"name":"smbmap","group":"active-directory","description":"SMB share enumeration tool","packaging":"svent","package":"sv-smbmap","executables":["smbmap"],"official_source":"https://github.com/ShawnDEvans/smbmap","version_policy":"svent-packaged","functional_test":["smbmap","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "smbmap",
+  "group": "active-directory",
+  "description": "SMB share enumeration tool",
+  "packaging": "svent",
+  "package": "sv-smbmap",
+  "executables": [
+    "smbmap"
+  ],
+  "official_source": "https://github.com/ShawnDEvans/smbmap",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "smbmap",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-smbmap",
+    "python": "/opt/sv-smbmap/bin/python"
+  },
+  "upstream_version": "1.10.8"
+}

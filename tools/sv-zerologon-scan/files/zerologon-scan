@@ -1,2 +1,0 @@
-#!/bin/sh
-exec /opt/sv-zerologon-scan/.venv/bin/python /opt/sv-zerologon-scan/zerologon_tester.py "$@"

@@ -1,0 +1,24 @@
+{
+  "source": "SecuraBV/CVE-2020-1472",
+  "version": "93b7e276c2fea9a4149a631c0d359f9b45dc45a9",
+  "updated_at": "2025-06-27T07:12:59Z",
+  "sha256": "e0c5c204c97d1a689e901328742606e5b9379e1bf3f1d88f5d12de3c8574629b",
+  "archive_url": "https://codeload.github.com/SecuraBV/CVE-2020-1472/tar.gz/93b7e276c2fea9a4149a631c0d359f9b45dc45a9",
+  "kind": "git-python",
+  "package": "sv-zerologon-scan",
+  "commands": {
+    "zerologon-scan": "source/zerologon_tester.py"
+  },
+  "test_command": "zerologon-scan",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

@@ -1,0 +1,15 @@
+{
+  "source": "github.com/ropnop/kerbrute",
+  "version": "v1.0.3",
+  "kind": "go",
+  "package": "sv-kerbrute",
+  "commands": {
+    "kerbrute": "bin/kerbrute"
+  },
+  "test_command": "kerbrute",
+  "test_arguments": [
+    "--help"
+  ],
+  "upstream_license": "Apache-2.0",
+  "include_corresponding_source": true
+}

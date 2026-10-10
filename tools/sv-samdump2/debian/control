@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-samdump2
 Architecture: all
-Depends: svent-core, samdump2, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), samdump2, ${misc:Depends}
 Description: Svent active-directory tool: samdump2
  Installs samdump2 and registers it in the Svent catalog and menu.

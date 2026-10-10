@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-samba-common
 Architecture: all
-Depends: svent-core, samba-common-bin, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), samba-common-bin, ${misc:Depends}
 Description: Svent active-directory tool: samba-common
  Installs samba-common and registers it in the Svent catalog and menu.

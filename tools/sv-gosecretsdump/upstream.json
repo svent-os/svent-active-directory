@@ -1,0 +1,15 @@
+{
+  "source": "github.com/C-Sto/gosecretsdump",
+  "version": "v0.3.1",
+  "kind": "go",
+  "package": "sv-gosecretsdump",
+  "commands": {
+    "gosecretsdump": "bin/gosecretsdump"
+  },
+  "test_command": "gosecretsdump",
+  "test_arguments": [
+    "--help"
+  ],
+  "upstream_license": "GPL-3.0",
+  "include_corresponding_source": true
+}

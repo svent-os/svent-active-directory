@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "name": "donpapi",
+  "group": "active-directory",
+  "description": "Remote Windows secrets collection and analysis",
+  "packaging": "svent",
+  "package": "sv-donpapi",
+  "executables": [
+    "donpapi",
+    "DonPAPI",
+    "dpp"
+  ],
+  "official_source": "https://github.com/login-securite/DonPAPI",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "donpapi",
+    "--help"
+  ],
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-donpapi",
+    "python": "/opt/sv-donpapi/bin/python"
+  },
+  "upstream_version": "2.0.1",
+  "functional_test_any_exit": true
+}

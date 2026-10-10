@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+if [ "$1" = configure ]; then
+    /usr/bin/python3 /usr/libexec/svent/tool-environments/sv-dfscoerce/debian/environment.py configure
+fi
+#DEBHELPER#

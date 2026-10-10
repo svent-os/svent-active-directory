@@ -1,0 +1,33 @@
+{
+  "source": "micahvandeusen/gMSADumper",
+  "version": "e03187ca5c2b38b8742a20b919ebe38633c0b084",
+  "updated_at": "2024-02-12T02:15:31Z",
+  "sha256": "59433c1e84252d61e7ea829a497f6fce61538337690b579f5f56ecd70be7a5ef",
+  "archive_url": "https://codeload.github.com/micahvandeusen/gMSADumper/tar.gz/e03187ca5c2b38b8742a20b919ebe38633c0b084",
+  "kind": "git-python",
+  "package": "sv-gmsadumper",
+  "commands": {
+    "gmsadumper": "source/gMSADumper.py"
+  },
+  "test_command": "gmsadumper",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "constraints": [
+    "pyOpenSSL==23.2.0"
+  ],
+  "source_replacements": {
+    "requirements.txt": {
+      "pycryptodomex==3.15.0": "pycryptodomex==3.24.0",
+      "pycryptodome==3.19.0": "pycryptodome==3.24.0"
+    }
+  },
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

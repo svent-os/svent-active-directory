@@ -1,8 +1,15 @@
 #!/usr/bin/make -f
-DESTDIR = $(CURDIR)/debian/sv-armory-ad
 %:
 	dh $@
+
+override_dh_auto_build:
+	python3 debian/armory.py build
+
 override_dh_auto_install:
-	install -D -m755 files/armory-ad $(DESTDIR)/usr/bin/armory-ad
-	install -D -m644 armory-ad.list $(DESTDIR)/usr/share/armory/ad-manifest.list
-	install -D -m644 catalog.d/armory-ad.json $(DESTDIR)/usr/share/svent/catalog.d/armory-ad.json
+	python3 debian/armory.py install
+
+override_dh_auto_clean:
+	python3 debian/armory.py clean
+
+override_dh_auto_test:
+	python3 -c "import ast, pathlib; ast.parse(pathlib.Path('files/manager.py').read_text())"

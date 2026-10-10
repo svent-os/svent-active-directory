@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-samba
 Architecture: all
-Depends: svent-core, samba, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), samba, ${misc:Depends}
 Description: Svent active-directory tool: samba
  Installs samba and registers it in the Svent catalog and menu.

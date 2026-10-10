@@ -1,0 +1,12 @@
+Upstream software retains its original license.
+Source: impacket
+Version: 0.13.1
+
+{
+  "expression": null,
+  "license": "Apache modified",
+  "license_classifiers": [],
+  "homepage": {
+    "Homepage": "https://www.coresecurity.com"
+  }
+}

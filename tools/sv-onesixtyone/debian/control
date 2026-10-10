@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-onesixtyone
 Architecture: all
-Depends: svent-core, onesixtyone, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), onesixtyone, ${misc:Depends}
 Description: Svent active-directory tool: onesixtyone
  Installs onesixtyone and registers it in the Svent catalog and menu.

@@ -1,0 +1,24 @@
+{
+  "source": "ShutdownRepo/pywhisker",
+  "version": "3d7e8a26e687a9eff8e13033e9dad73264d2a540",
+  "updated_at": "2026-10-08T18:16:55Z",
+  "sha256": "64f6ae091ea40ca0c949bc02794e21df630b4d739fa93dafd292e12a1dafa0ca",
+  "archive_url": "https://codeload.github.com/ShutdownRepo/pywhisker/tar.gz/3d7e8a26e687a9eff8e13033e9dad73264d2a540",
+  "kind": "git-python",
+  "package": "sv-pywhisker",
+  "commands": {
+    "pywhisker": "bin/pywhisker"
+  },
+  "test_command": "pywhisker",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": true,
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

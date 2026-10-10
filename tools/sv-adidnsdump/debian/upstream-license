@@ -1,0 +1,12 @@
+Upstream software retains its original license.
+Source: adidnsdump
+Version: 1.4.0
+
+{
+  "expression": null,
+  "license": "MIT",
+  "license_classifiers": [],
+  "homepage": {
+    "Homepage": "https://github.com/dirkjanm/adidnsdump"
+  }
+}

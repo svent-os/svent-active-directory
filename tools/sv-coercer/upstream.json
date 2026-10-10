@@ -1,0 +1,24 @@
+{
+  "source": "coercer",
+  "version": "2.4.3",
+  "kind": "pypi",
+  "package": "sv-coercer",
+  "commands": {
+    "coercer": "bin/coercer"
+  },
+  "test_command": "coercer",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "constraints": [
+    "pyOpenSSL==23.2.0"
+  ],
+  "upstream_license": "GPL-2.0"
+}

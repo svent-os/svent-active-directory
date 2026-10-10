@@ -1,1 +1,24 @@
-{"schema":1,"name":"dfscoerce","group":"active-directory","description":"MS-DFSNM coercion (DFSCoerce)","packaging":"svent","package":"sv-dfscoerce","executables":["dfscoerce"],"official_source":"https://github.com/Wh04m1001/DFSCoerce","version_policy":"svent-packaged","functional_test":["dfscoerce","--help"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "dfscoerce",
+  "group": "active-directory",
+  "description": "MS-DFSNM coercion (DFSCoerce)",
+  "packaging": "svent",
+  "package": "sv-dfscoerce",
+  "executables": [
+    "dfscoerce"
+  ],
+  "official_source": "https://github.com/Wh04m1001/DFSCoerce",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "dfscoerce",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-dfscoerce",
+    "python": "/opt/sv-dfscoerce/bin/python"
+  },
+  "upstream_version": "e6f50871f17a881039afad9836a136db17d30d2b"
+}

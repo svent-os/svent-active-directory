@@ -1,0 +1,28 @@
+{
+  "source": "topotam/PetitPotam",
+  "version": "c5d5221dc5e6aac3bc7de97a34fa8d89c2f1900b",
+  "updated_at": "2024-08-15T03:52:25Z",
+  "sha256": "ead62e81f335b3ccbd8df22ff744598e7803b2941a18390de10df20973c1244b",
+  "archive_url": "https://codeload.github.com/topotam/PetitPotam/tar.gz/c5d5221dc5e6aac3bc7de97a34fa8d89c2f1900b",
+  "kind": "git-python",
+  "package": "sv-petitpotam",
+  "commands": {
+    "petitpotam": "source/PetitPotam.py"
+  },
+  "test_command": "petitpotam",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "requirements": [
+    "impacket==0.13.1"
+  ],
+  "install_project": false,
+  "upstream_license": "No redistribution license found; upstream code is not included in this package",
+  "redistribution": "download-at-install"
+}

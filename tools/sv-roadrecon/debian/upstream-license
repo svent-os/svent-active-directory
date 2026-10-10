@@ -1,0 +1,12 @@
+Upstream software retains its original license.
+Source: roadrecon
+Version: 2.0.0
+
+{
+  "expression": null,
+  "license": "MIT",
+  "license_classifiers": [],
+  "homepage": {
+    "Homepage": "https://github.com/dirkjanm/ROADtools/"
+  }
+}

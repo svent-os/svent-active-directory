@@ -1,0 +1,24 @@
+{
+  "source": "cddmp/enum4linux-ng",
+  "version": "288826fd9ee89b61d846e59f17b77bae4fb671ee",
+  "updated_at": "2026-02-20T11:28:37Z",
+  "sha256": "ca831d057a8981e22a4ba10bf81a2829f4106f244a4e8268f6a2815a40563680",
+  "archive_url": "https://codeload.github.com/cddmp/enum4linux-ng/tar.gz/288826fd9ee89b61d846e59f17b77bae4fb671ee",
+  "kind": "git-python",
+  "package": "sv-enum4linux-ng",
+  "commands": {
+    "enum4linux-ng": "source/enum4linux-ng.py"
+  },
+  "test_command": "enum4linux-ng",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

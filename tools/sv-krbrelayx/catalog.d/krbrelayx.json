@@ -1,1 +1,27 @@
-{"schema":1,"name":"krbrelayx","group":"active-directory","description":"Kerberos relaying / delegation abuse","packaging":"svent","package":"sv-krbrelayx","executables":["krbrelayx","dnstool","printerbug","addspn"],"official_source":"https://github.com/dirkjanm/krbrelayx","version_policy":"svent-packaged","functional_test":["krbrelayx","--help"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "krbrelayx",
+  "group": "active-directory",
+  "description": "Kerberos relaying / delegation abuse",
+  "packaging": "svent",
+  "package": "sv-krbrelayx",
+  "executables": [
+    "krbrelayx",
+    "dnstool",
+    "printerbug",
+    "addspn"
+  ],
+  "official_source": "https://github.com/dirkjanm/krbrelayx",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "krbrelayx",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-krbrelayx",
+    "python": "/opt/sv-krbrelayx/bin/python"
+  },
+  "upstream_version": "10b45a33bc4361ec4a5546eea62db2e4244d3255"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "sprayhound",
+  "version": "0.0.4",
+  "kind": "pypi",
+  "package": "sv-sprayhound",
+  "commands": {
+    "sprayhound": "bin/sprayhound"
+  },
+  "test_command": "sprayhound",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": "MIT"
+}

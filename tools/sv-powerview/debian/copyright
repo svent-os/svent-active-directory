@@ -7,3 +7,8 @@ Copyright: 2026 z1rov <fabian@zirov.net>
 License: GPL-3.0-or-later
  On Debian systems the full license text is in
  /usr/share/common-licenses/GPL-3.
+
+Comment: The license above applies to Svent packaging. Upstream software
+ retains its original licenses, reproduced in debian/upstream-license
+ and the installed environment. Python dependency notices are recorded
+ in /opt/sv-powerview/third-party-notices.json when applicable.

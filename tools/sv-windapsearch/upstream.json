@@ -1,0 +1,24 @@
+{
+  "source": "ropnop/windapsearch",
+  "version": "7724ec4191d72ef6c26f59cf1ba61ea971718dea",
+  "updated_at": "2020-05-24T21:56:26Z",
+  "sha256": "660b7d2ad31fb363badd8cbd6befa24e0b0408f013fa2a1c72a737ad87c7cf9e",
+  "archive_url": "https://codeload.github.com/ropnop/windapsearch/tar.gz/7724ec4191d72ef6c26f59cf1ba61ea971718dea",
+  "kind": "git-python",
+  "package": "sv-windapsearch",
+  "commands": {
+    "windapsearch": "source/windapsearch.py"
+  },
+  "test_command": "windapsearch",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

@@ -1,0 +1,33 @@
+{
+  "source": "dirkjanm/krbrelayx",
+  "version": "10b45a33bc4361ec4a5546eea62db2e4244d3255",
+  "updated_at": "2026-03-11T22:16:43Z",
+  "sha256": "81a0287c4fdb8fca5fc8802a3cd16aa9dbd348098baee62afdcd968e773a0a99",
+  "archive_url": "https://codeload.github.com/dirkjanm/krbrelayx/tar.gz/10b45a33bc4361ec4a5546eea62db2e4244d3255",
+  "kind": "git-python",
+  "package": "sv-krbrelayx",
+  "commands": {
+    "krbrelayx": "source/krbrelayx.py",
+    "dnstool": "source/dnstool.py",
+    "printerbug": "source/printerbug.py",
+    "addspn": "source/addspn.py"
+  },
+  "test_command": "krbrelayx",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "requirements": [
+    "impacket==0.13.1",
+    "ldap3",
+    "dnspython",
+    "pycryptodomex"
+  ],
+  "install_project": false,
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

@@ -1,1 +1,24 @@
-{"schema":1,"name":"pywerview","group":"active-directory","description":"PowerView-like AD recon (Python)","packaging":"svent","package":"sv-pywerview","executables":["pywerview"],"official_source":"https://github.com/the-useless-one/pywerview","version_policy":"svent-packaged","functional_test":["pywerview","--version"],"functional_test_any_exit":true}
+{
+  "schema": 1,
+  "name": "pywerview",
+  "group": "active-directory",
+  "description": "PowerView-like AD recon (Python)",
+  "packaging": "svent",
+  "package": "sv-pywerview",
+  "executables": [
+    "pywerview"
+  ],
+  "official_source": "https://github.com/the-useless-one/pywerview",
+  "version_policy": "svent-packaged",
+  "functional_test": [
+    "pywerview",
+    "--help"
+  ],
+  "functional_test_any_exit": true,
+  "isolation": {
+    "kind": "venv",
+    "prefix": "/opt/sv-pywerview",
+    "python": "/opt/sv-pywerview/bin/python"
+  },
+  "upstream_version": "0.7.6"
+}

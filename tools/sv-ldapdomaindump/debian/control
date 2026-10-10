@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-ldapdomaindump
 Architecture: all
-Depends: svent-core, python3-ldapdomaindump, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), python3-ldapdomaindump, ${misc:Depends}
 Description: Svent active-directory tool: ldapdomaindump
  Installs ldapdomaindump and registers it in the Svent catalog and menu.

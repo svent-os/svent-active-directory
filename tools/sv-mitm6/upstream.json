@@ -1,0 +1,21 @@
+{
+  "source": "mitm6",
+  "version": "0.3.0",
+  "kind": "pypi",
+  "package": "sv-mitm6",
+  "commands": {
+    "mitm6": "bin/mitm6"
+  },
+  "test_command": "mitm6",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": "GPLv2"
+}

@@ -1,3 +1,9 @@
+sv-nbtscan (0.1.1) unstable; urgency=medium
+
+  * Register Debian-managed dependencies and require the updated catalog.
+
+ -- z1rov <fabian@zirov.net>  Sat, 10 Oct 2026 16:00:00 -0500
+
 sv-nbtscan (0.1.0) unstable; urgency=medium
 
   * Initial release.

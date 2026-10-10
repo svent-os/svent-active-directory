@@ -1,0 +1,39 @@
+{
+  "source": "Pennyw0rth/NetExec",
+  "version": "306bf295dcc1e381c8e4808d39ae43de4812194c",
+  "updated_at": "2026-10-04T22:15:43Z",
+  "sha256": "489e0c943e1683d179076bc2c304253f40e8eaf4478e10166b72202d7396c75c",
+  "archive_url": "https://codeload.github.com/Pennyw0rth/NetExec/tar.gz/306bf295dcc1e381c8e4808d39ae43de4812194c",
+  "kind": "git-python",
+  "package": "sv-netexec",
+  "commands": {
+    "nxc": "bin/nxc",
+    "netexec": "bin/netexec",
+    "NetExec": "bin/NetExec",
+    "nxcdb": "bin/nxcdb"
+  },
+  "test_command": "nxc",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": true,
+  "source_replacements": {
+    "pyproject.toml": {
+      "git+https://github.com/Pennyw0rth/Certipy\"": "git+https://github.com/Pennyw0rth/Certipy@069e03113095aa02772aa3d8debea90654933fe4\"",
+      "git+https://github.com/fortra/impacket\"": "git+https://github.com/fortra/impacket@1875828d0f2e987cd89c1bcb45f843708981a199\"",
+      "git+https://github.com/Pennyw0rth/NfsClient\"": "git+https://github.com/Pennyw0rth/NfsClient@730650439f12eb8b7d9f61c0019840e29cba4b77\"",
+      "dynamic = [\"version\"]": "version = \"1.5.1+git.306bf295dcc1\"",
+      "version = \"0.0.0\"": "version = \"1.5.1+git.306bf295dcc1\"",
+      "enable = true": "enable = false",
+      "build-backend = \"poetry_dynamic_versioning.backend\"": "build-backend = \"poetry.core.masonry.api\"",
+      "requires = [\"poetry-core>=1.0.0\", \"poetry-dynamic-versioning>=1.0.0,<2.0.0\"]": "requires = [\"poetry-core>=1.0.0\"]"
+    }
+  },
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

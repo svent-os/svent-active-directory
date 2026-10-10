@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: sv-kerberos
 Architecture: all
-Depends: svent-core, krb5-user, ${misc:Depends}
+Depends: svent-core (>= 0.4.4), krb5-user, ${misc:Depends}
 Description: Svent active-directory tool: kerberos
  Installs kerberos and registers it in the Svent catalog and menu.

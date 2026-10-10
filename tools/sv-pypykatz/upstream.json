@@ -1,0 +1,23 @@
+{
+  "source": "pypykatz",
+  "version": "0.6.13",
+  "kind": "pypi",
+  "package": "sv-pypykatz",
+  "commands": {
+    "pypykatz": "bin/pypykatz"
+  },
+  "test_command": "pypykatz",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": [
+    "License :: OSI Approved :: MIT License"
+  ]
+}

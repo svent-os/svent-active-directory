@@ -1,0 +1,17 @@
+{
+  "source": "CiscoCXSecurity/enum4linux",
+  "version": "0a5b7d48a97bbda648aaf7ace47a9e4f736ef8d7",
+  "updated_at": "2026-06-12T08:55:20Z",
+  "sha256": "754933161d01ca7ac8c5d87ce69b1035943878362266cb948106b415ecd624b5",
+  "archive_url": "https://codeload.github.com/CiscoCXSecurity/enum4linux/tar.gz/0a5b7d48a97bbda648aaf7ace47a9e4f736ef8d7",
+  "kind": "perl",
+  "package": "sv-enum4linux",
+  "commands": {
+    "enum4linux": "source/enum4linux.pl"
+  },
+  "test_command": "enum4linux",
+  "test_arguments": [
+    "--help"
+  ],
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

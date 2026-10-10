@@ -1,0 +1,16 @@
+Upstream software retains its original license.
+Source: goldencopy
+Version: 1.6
+
+{
+  "expression": null,
+  "license": "GNU",
+  "license_classifiers": [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+  ],
+  "homepage": {
+    "Bug Reports": "https://github.com/Dramelac/GoldenCopy/issues",
+    "Homepage": "https://github.com/Dramelac/GoldenCopy",
+    "Source": "https://github.com/Dramelac/GoldenCopy"
+  }
+}

@@ -1,15 +1,15 @@
 Source: sv-armory-ad
-Section: metapackages
+Section: net
 Priority: optional
 Maintainer: z1rov <fabian@zirov.net>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13), python3 (>= 3.13~), ca-certificates, mono-mcs, libmono-system-data4.0-cil, libmono-system-xml-linq4.0-cil, libmono-microsoft-csharp4.0-cil
 Standards-Version: 4.7.0
+Rules-Requires-Root: no
 
 Package: sv-armory-ad
 Architecture: all
-Depends: svent-core, curl, ca-certificates, unzip, ${misc:Depends}
-Description: Svent AD armory (Windows attack binaries downloader)
- Downloads Active Directory / Windows attack binaries and scripts (Rubeus,
- Certify, SharpHound, mimikatz, winPEAS, PowerView.ps1, Sysinternals, ...)
- into /usr/share/armory/ad for uploading to compromised Windows hosts.
- Binaries are fetched from their upstream projects at install time.
+Depends: svent-core (>= 0.4.4), python3, ca-certificates, ${misc:Depends}
+Description: Svent Windows assessment collection
+ Downloads verified upstream Windows utilities during configuration.
+ Includes only the selected Sysinternals utilities and a source-built
+ SpoolSample executable with its BSD license.

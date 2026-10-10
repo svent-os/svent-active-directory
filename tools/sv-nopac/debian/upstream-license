@@ -1,0 +1,8 @@
+Upstream software retains its original license.
+Source: Ridter/noPac
+Version: 28465651f17467ae964723f637bf323ccdbb1aa1
+
+{
+  "license_files": {}
+}
+No upstream license was found at the pinned source revision. This package ships only Svent-owned configuration and download instructions. Downloading does not grant additional use or redistribution rights.

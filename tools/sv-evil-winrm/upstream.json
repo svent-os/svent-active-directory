@@ -1,0 +1,16 @@
+{
+  "source": "evil-winrm",
+  "version": "4.1",
+  "kind": "gem",
+  "package": "sv-evil-winrm",
+  "commands": {
+    "evil-winrm": "bin/evil-winrm"
+  },
+  "test_command": "evil-winrm",
+  "test_arguments": [
+    "--help"
+  ],
+  "gem_command": "/usr/bin/gem3.3",
+  "ruby_command": "/usr/bin/ruby3.3",
+  "upstream_license": "LGPL-3.0"
+}

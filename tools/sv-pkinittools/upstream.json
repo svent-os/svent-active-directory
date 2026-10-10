@@ -1,0 +1,26 @@
+{
+  "source": "dirkjanm/PKINITtools",
+  "version": "0f0cfa542b0348609ad494713e84744234b2d3b0",
+  "updated_at": "2025-01-03T14:25:34Z",
+  "sha256": "cccbeb5202f6dca3d21e676b50ea59805df6e99096c237bc9368af0b2b7b36a2",
+  "archive_url": "https://codeload.github.com/dirkjanm/PKINITtools/tar.gz/0f0cfa542b0348609ad494713e84744234b2d3b0",
+  "kind": "git-python",
+  "package": "sv-pkinittools",
+  "commands": {
+    "gettgtpkinit": "source/gettgtpkinit.py",
+    "getnthash": "source/getnthash.py",
+    "gets4uticket": "source/gets4uticket.py"
+  },
+  "test_command": "gettgtpkinit",
+  "test_arguments": [
+    "--help"
+  ],
+  "build_pins": {
+    "pip": "26.2.1",
+    "wheel": "0.48.0",
+    "setuptools": "80.9.0"
+  },
+  "oscrypto_source": "git+https://github.com/wbond/oscrypto.git@76bfdcb7285d856c44f8d0fbafe0ecca1c6d2f8b",
+  "install_project": false,
+  "upstream_license": "See debian/upstream-license and the installed upstream license files"
+}

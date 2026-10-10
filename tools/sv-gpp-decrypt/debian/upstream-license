@@ -1,0 +1,16 @@
+Upstream software retains its original license.
+Source: gpp-decrypt
+Version: 2.0.0
+
+{
+  "expression": null,
+  "license": null,
+  "license_classifiers": [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+  ],
+  "homepage": {
+    "Bug Tracker": "https://github.com/t0thkr1s/gpp-decrypt/issues",
+    "Homepage": "https://github.com/t0thkr1s/gpp-decrypt",
+    "Source": "https://github.com/t0thkr1s/gpp-decrypt"
+  }
+}
