@@ -1,3 +1,9 @@
+sv-powerview (0.1.2) unstable; urgency=medium
+
+  * Resolve private wheel libraries when calculating shared dependencies.
+
+ -- z1rov <fabian@zirov.net>  Sat, 10 Oct 2026 21:00:00 -0500
+
 sv-powerview (0.1.1) unstable; urgency=medium
 
   * Pin upstream sources and package dependencies without modifying system runtimes.

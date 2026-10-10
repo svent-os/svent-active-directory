@@ -361,6 +361,22 @@ def install(destination):
     shutil.copy2(ROOT / "upstream.json", target / "upstream.json")
 
 
+def shlibdeps():
+    target = ROOT / "debian" / META["package"] / PREFIX.lstrip("/")
+    directories = set()
+    for path in target.rglob("*.so*"):
+        if not path.is_file():
+            continue
+        with path.open("rb") as stream:
+            if stream.read(4) == b"\x7fELF":
+                directories.add(str(path.parent.resolve()))
+    arguments = ["dh_shlibdeps"]
+    if directories:
+        arguments.append("-l" + ":".join(sorted(directories)))
+    arguments.extend(["--", "--ignore-missing-info"])
+    run(arguments)
+
+
 if __name__ == "__main__":
     action = sys.argv[1]
     if action == "build":
@@ -370,6 +386,8 @@ if __name__ == "__main__":
     elif action == "clean":
         if BUILD.exists():
             shutil.rmtree(BUILD)
+    elif action == "shlibdeps":
+        shlibdeps()
     elif action == "configure":
         configure()
     elif action == "configure-local":
