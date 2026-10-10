@@ -1,3 +1,9 @@
+sv-evil-winrm (0.1.2) unstable; urgency=medium
+
+  * Use a compatible RubyGems configuration option for private gem installation.
+
+ -- z1rov <fabian@zirov.net>  Sat, 10 Oct 2026 20:00:00 -0500
+
 sv-evil-winrm (0.1.1) unstable; urgency=medium
 
   * Pin upstream sources and package dependencies without modifying system runtimes.

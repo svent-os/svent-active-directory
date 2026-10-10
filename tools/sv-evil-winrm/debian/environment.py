@@ -206,7 +206,7 @@ def build():
         environment = ENV.copy()
         environment.update(GEM_HOME=str(ENVIRONMENT), GEM_PATH=str(ENVIRONMENT), GEMRC="/dev/null",
                            GEM_SPEC_CACHE=str(BUILD / "gem-spec-cache"))
-        run([META.get("gem_command", "gem"), "--norc", "install", "--no-document", "--install-dir", ENVIRONMENT, "--bindir",
+        run([META.get("gem_command", "gem"), "install", "--config-file", "/dev/null", "--no-document", "--install-dir", ENVIRONMENT, "--bindir",
              ENVIRONMENT / "bin", "--version", META["version"], META["source"]], environment=environment)
         with (BUILD / "gems-installed.txt").open("w") as output:
             subprocess.run([META.get("gem_command", "gem"), "list", "--local"], env=environment, cwd=ROOT, stdout=output, check=True)
