@@ -9,6 +9,9 @@ License: GPL-3.0-or-later
  /usr/share/common-licenses/GPL-3.
 Comment: Downloaded third-party files are not included in this package.
  Their original terms apply independently.
+ LinPEAS and Linux Smart Enumeration are retrieved without modification
+ alongside the original license files. Pinned source and license URLs
+ are recorded in armory-manifest.json.
 
 Files: .build/SpoolSample.exe
 Copyright: 2018 leechristensen

@@ -121,7 +121,7 @@ def check(entries):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Manage the Svent Windows assessment collection.')
+    parser = argparse.ArgumentParser(description='Manage the Svent Windows and Linux assessment collection.')
     parser.add_argument('--configure', action='store_true')
     parser.add_argument('--check', action='store_true')
     parser.add_argument('--path', action='store_true')

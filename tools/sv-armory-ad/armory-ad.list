@@ -73,3 +73,7 @@ invoke-obfuscation https://raw.githubusercontent.com/danielbohannon/Invoke-Obfus
 invoke-obfuscation https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-ObfuscatedTokenCommand.ps1 Out-ObfuscatedTokenCommand.ps1
 invoke-obfuscation https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-PowerShellLauncher.ps1 Out-PowerShellLauncher.ps1
 invoke-obfuscation https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-SecureStringCommand.ps1 Out-SecureStringCommand.ps1
+linpeas https://github.com/peass-ng/PEASS-ng/releases/download/20261010-26cb635b/linpeas.sh linpeas.sh
+lse https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/b83a26f91641f85705c802f44aacb2ec42002157/lse.sh lse.sh
+linpeas https://raw.githubusercontent.com/peass-ng/PEASS-ng/20261010-26cb635b/LICENSE LICENSE
+lse https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/b83a26f91641f85705c802f44aacb2ec42002157/LICENSE LICENSE

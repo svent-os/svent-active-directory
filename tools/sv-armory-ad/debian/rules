@@ -13,3 +13,4 @@ override_dh_auto_clean:
 
 override_dh_auto_test:
 	python3 -c "import ast, pathlib; ast.parse(pathlib.Path('files/manager.py').read_text())"
+	python3 -m unittest discover -s tests -v

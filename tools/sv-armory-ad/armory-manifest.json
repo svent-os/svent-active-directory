@@ -895,6 +895,50 @@
       "size": 50590,
       "redistribution": "download-at-install",
       "license_url": "https://raw.githubusercontent.com/danielbohannon/Invoke-Obfuscation/f20e7f843edd0a3a7716736e9eddfa423395dd26/Out-SecureStringCommand.ps1"
+    },
+    {
+      "category": "linpeas",
+      "url": "https://github.com/peass-ng/PEASS-ng/releases/download/20261010-26cb635b/linpeas.sh",
+      "filename": "linpeas.sh",
+      "version": "20261010-26cb635b",
+      "type": "file",
+      "sha256": "3301968e69412ffd0e39bcabdeb595eb0ccf38c0dad198ce85d9e397274f8681",
+      "size": 1791831,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/peass-ng/PEASS-ng/20261010-26cb635b/LICENSE"
+    },
+    {
+      "category": "lse",
+      "url": "https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/b83a26f91641f85705c802f44aacb2ec42002157/lse.sh",
+      "filename": "lse.sh",
+      "version": "b83a26f91641f85705c802f44aacb2ec42002157",
+      "type": "file",
+      "sha256": "a0c526f560189c81bc66303b81e828edabc68deed7e7bd28aed55a792c6d25c3",
+      "size": 48875,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/b83a26f91641f85705c802f44aacb2ec42002157/LICENSE"
+    },
+    {
+      "category": "linpeas",
+      "url": "https://raw.githubusercontent.com/peass-ng/PEASS-ng/20261010-26cb635b/LICENSE",
+      "filename": "LICENSE",
+      "version": "20261010-26cb635b",
+      "type": "file",
+      "sha256": "c75d228e3dc7133765cbeee39013397ea1474d9d4701e70b224dacede528f688",
+      "size": 18826,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/peass-ng/PEASS-ng/20261010-26cb635b/LICENSE"
+    },
+    {
+      "category": "lse",
+      "url": "https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/b83a26f91641f85705c802f44aacb2ec42002157/LICENSE",
+      "filename": "LICENSE",
+      "version": "b83a26f91641f85705c802f44aacb2ec42002157",
+      "type": "file",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "size": 35149,
+      "redistribution": "download-at-install",
+      "license_url": "https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/b83a26f91641f85705c802f44aacb2ec42002157/LICENSE"
     }
   ]
 }

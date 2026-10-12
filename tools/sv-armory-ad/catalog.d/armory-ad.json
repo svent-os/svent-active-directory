@@ -2,7 +2,7 @@
   "schema": 1,
   "name": "armory-ad",
   "group": "active-directory",
-  "description": "Windows AD attack binaries/scripts to upload to targets (Rubeus, Certify, SharpHound, mimikatz, winPEAS...)",
+  "description": "Windows and Linux assessment files for targets, including AD utilities, winPEAS, LinPEAS and Linux Smart Enumeration.",
   "packaging": "svent",
   "package": "sv-armory-ad",
   "executables": [
@@ -16,7 +16,7 @@
   ],
   "functional_test_any_exit": true,
   "isolation": {
-    "kind": "downloaded-windows-files",
+    "kind": "downloaded-assessment-files",
     "prefix": "/usr/share/armory/ad"
   }
 }

@@ -1,3 +1,10 @@
+sv-armory-ad (1.4.0) unstable; urgency=medium
+
+  * Add pinned LinPEAS and Linux Smart Enumeration scripts and upstream licenses.
+  * Keep the existing collection path and verify all downloaded files.
+
+ -- z1rov <fabian@zirov.net>  Mon, 12 Oct 2026 18:00:00 -0500
+
 sv-armory-ad (1.3.0) unstable; urgency=medium
 
   * Pin verified downloads, retain selected Sysinternals tools and add SpoolSample.

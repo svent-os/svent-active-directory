@@ -1,3 +1,9 @@
+sv-tools-active-directory (0.3.7) unstable; urgency=medium
+
+  * Require Armory with LinPEAS and Linux Smart Enumeration.
+
+ -- z1rov <fabian@zirov.net>  Mon, 12 Oct 2026 18:00:00 -0500
+
 sv-tools-active-directory (0.3.6) unstable; urgency=medium
 
   * Require PowerView with corrected private library resolution.

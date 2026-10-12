@@ -1,6 +1,6 @@
 {
   "package": "sv-armory-ad",
-  "kind": "windows-collection",
+  "kind": "assessment-collection",
   "version": "688971e69cbe9240ea84bdd38f732dd9817110f8",
   "archive_url": "https://codeload.github.com/leechristensen/SpoolSample/tar.gz/688971e69cbe9240ea84bdd38f732dd9817110f8",
   "sha256": "4eef686adf2d49df377aa662cf46ab3948be40e825bf3cda126bbeb5ee34bb3a",
