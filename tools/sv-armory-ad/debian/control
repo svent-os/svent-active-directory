@@ -10,7 +10,7 @@ Package: sv-armory-ad
 Architecture: all
 Depends: svent-core (>= 0.4.4), python3, ca-certificates, ${misc:Depends}
 Description: Svent Windows and Linux assessment collection
- Downloads verified upstream Windows utilities, LinPEAS and Linux Smart
+ Downloads upstream Windows utilities over HTTPS, LinPEAS and Linux Smart
  Enumeration with their original license files during configuration.
  Includes only the selected Sysinternals utilities and a source-built
  SpoolSample executable with its BSD license.

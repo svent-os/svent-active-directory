@@ -1,4 +1,3 @@
-import hashlib
 import json
 import pathlib
 import shutil
@@ -21,8 +20,6 @@ def build():
     archive = BUILD / 'spoolsample.tar.gz'
     with urllib.request.urlopen(request, timeout=120) as response, archive.open('wb') as output:
         shutil.copyfileobj(response, output)
-    if hashlib.sha256(archive.read_bytes()).hexdigest() != source['sha256']:
-        raise RuntimeError('SpoolSample source checksum mismatch')
     with tarfile.open(archive) as source_archive:
         source_archive.extractall(BUILD / 'source', filter='data')
     projects = list((BUILD / 'source').iterdir())
@@ -40,8 +37,7 @@ def build():
         raise RuntimeError('Invalid compiled Windows executable')
     manifest = json.loads((ROOT / 'armory-manifest.json').read_text())
     manifest['resources'].append({'category': 'spoolsample', 'filename': 'SpoolSample.exe',
-                                 'type': 'bundled', 'size': len(data),
-                                 'sha256': hashlib.sha256(data).hexdigest(),
+                                 'type': 'bundled',
                                  'version': source['version'], 'license': 'BSD-3-Clause',
                                  'license_url': 'https://github.com/leechristensen/SpoolSample/blob/' + source['version'] + '/LICENSE'})
     (BUILD / 'armory-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')

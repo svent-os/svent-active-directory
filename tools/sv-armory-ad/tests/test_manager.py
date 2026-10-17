@@ -1,7 +1,8 @@
 from contextlib import contextmanager
-import hashlib
 import importlib.util
 import json
+import io
+import zipfile
 from pathlib import Path
 import shutil
 import unittest
@@ -31,7 +32,7 @@ class ArmoryTests(unittest.TestCase):
 
     def entry(self, category, filename, data):
         return {'category': category, 'filename': filename, 'type': 'file',
-                'size': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
+                'url': 'https://example.test/' + filename}
 
     @contextmanager
     def temporary(self, **kwargs):
@@ -39,7 +40,7 @@ class ArmoryTests(unittest.TestCase):
         folder.mkdir()
         yield str(folder)
 
-    def test_scripts_and_licenses_are_verified_without_execution(self):
+    def test_scripts_and_licenses_are_installed_without_execution(self):
         data = b'#!/bin/sh\nprintf test\n'
         license_data = b'Original upstream license\n'
         entries = [self.entry('linpeas', 'linpeas.sh', data), self.entry('linpeas', 'LICENSE', license_data)]
@@ -56,12 +57,12 @@ class ArmoryTests(unittest.TestCase):
         fetch.assert_not_called()
 
     def test_failed_download_does_not_replace_existing_files(self):
-        previous = self.collection / 'lse/lse.sh'
+        previous = self.collection / 'lse/lse.exe'
         previous.parent.mkdir()
         previous.write_bytes(b'previous version')
-        entries = [self.entry('lse', 'lse.sh', b'new version'), self.entry('lse', 'LICENSE', b'license')]
-        with patch.object(manager.os, 'geteuid', return_value=0, create=True), patch.object(manager.tempfile, 'TemporaryDirectory', self.temporary), patch.object(manager, 'fetch', side_effect=[b'new version', b'corrupt']):
-            with self.assertRaisesRegex(RuntimeError, 'checksum mismatch'):
+        entries = [self.entry('lse', 'lse.exe', b'MZnew version'), self.entry('lse', 'LICENSE', b'license')]
+        with patch.object(manager.os, 'geteuid', return_value=0, create=True), patch.object(manager.tempfile, 'TemporaryDirectory', self.temporary), patch.object(manager, 'fetch', side_effect=[b'MZnew version', RuntimeError('connection failed')]):
+            with self.assertRaisesRegex(RuntimeError, 'connection failed'):
                 manager.configure(entries)
         self.assertEqual(previous.read_bytes(), b'previous version')
         self.assertFalse(manager.STATE.exists())
@@ -74,9 +75,48 @@ class ArmoryTests(unittest.TestCase):
             for entry in resources.values():
                 self.assertNotIn('/latest/', entry['url'])
                 self.assertNotIn('/master/', entry['url'])
-                self.assertEqual(len(entry['sha256']), 64)
-                self.assertGreater(entry['size'], 0)
+                self.assertTrue(entry['url'].startswith('https://'))
+                self.assertNotIn('sha256', entry)
+                self.assertNotIn('size', entry)
                 self.assertTrue(entry['license_url'].startswith('https://'))
+
+    def test_changed_upstream_file_is_accepted_and_recorded_for_cleanup(self):
+        data = b'MZnew upstream executable'
+        entry = self.entry('sysinternals', 'procdump.exe', data)
+        entry.update(size=1, sha256='obsolete')
+        with patch.object(manager.os, 'geteuid', return_value=0, create=True), patch.object(manager, 'fetch', return_value=data):
+            manager.configure([entry])
+        self.assertEqual((self.collection / 'sysinternals/procdump.exe').read_bytes(), data)
+        state = json.loads(manager.STATE.read_text())
+        self.assertNotEqual(state[0]['sha256'], 'obsolete')
+        manager.check([entry])
+
+    def test_fetch_reads_whole_changed_file(self):
+        data = b'MZlarger than the pinned size'
+        response = io.BytesIO(data)
+        response.url = 'https://example.test/tool.exe'
+        entry = self.entry('test', 'tool.exe', data)
+        entry.update(size=1, sha256='obsolete')
+        with patch.object(manager.urllib.request, 'urlopen', return_value=response):
+            self.assertEqual(manager.fetch(entry), data)
+
+    def test_zip_members_accept_changed_sizes_and_hashes(self):
+        data = b'MZupdated executable'
+        buffer = io.BytesIO()
+        with zipfile.ZipFile(buffer, 'w') as archive:
+            archive.writestr('tool.exe', data)
+        entry = dict(category='test', filename='tools.zip', type='zip',
+                     members=[dict(path='tool.exe', size=1, sha256='obsolete')])
+        with patch.object(manager.os, 'geteuid', return_value=0, create=True), patch.object(manager, 'fetch', return_value=buffer.getvalue()):
+            manager.configure([entry])
+        self.assertEqual((self.collection / 'test/tool.exe').read_bytes(), data)
+
+    def test_invalid_executable_is_rejected(self):
+        entry = self.entry('test', 'tool.exe', b'HTML error page')
+        with patch.object(manager.os, 'geteuid', return_value=0, create=True), patch.object(manager, 'fetch', return_value=b'HTML error page'):
+            with self.assertRaisesRegex(RuntimeError, 'Windows binary format'):
+                manager.configure([entry])
+        self.assertFalse((self.collection / 'test/tool.exe').exists())
 
     def test_collection_paths_cannot_escape(self):
         for relative in ['../outside', '/outside', 'lse/../../outside', 'lse\\outside']:

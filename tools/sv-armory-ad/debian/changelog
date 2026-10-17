@@ -1,3 +1,11 @@
+sv-armory-ad (1.4.1) unstable; urgency=medium
+
+  * Accept upstream downloads without pinned sizes or checksums.
+  * Retain HTTPS, safe paths, basic file format checks and atomic staging.
+  * Report the underlying download error and test changing upstream files.
+
+ -- z1rov <fabian@zirov.net>  Sat, 17 Oct 2026 12:00:00 -0700
+
 sv-armory-ad (1.4.0) unstable; urgency=medium
 
   * Add pinned LinPEAS and Linux Smart Enumeration scripts and upstream licenses.
